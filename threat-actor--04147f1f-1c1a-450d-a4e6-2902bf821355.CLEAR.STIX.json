@@ -1,0 +1,2848 @@
+{
+  "type": "bundle",
+  "id": "bundle--201da3c9-f377-4ad5-8956-ece46b9f2f67",
+  "objects": [
+    {
+      "id": "identity--1f5c6f58-8d93-48b5-99cd-2cb5c961ecd3",
+      "type": "identity",
+      "spec_version": "2.1",
+      "created": "2023-03-23T09:31:55.468Z",
+      "modified": "2023-03-23T09:31:55.468Z",
+      "name": "CERT-EU",
+      "description": "",
+      "identity_class": "organization",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "id": "identity--8445c85e-857c-4e64-af53-f06bb7aca7aa",
+      "type": "identity",
+      "spec_version": "2.1",
+      "created": "2023-03-23T09:31:55.468Z",
+      "modified": "2023-03-23T09:31:55.468Z",
+      "name": "DARKReading",
+      "description": "",
+      "identity_class": "organization",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "id": "identity--20218d5e-5bc8-45e4-b252-976200eed3d4",
+      "type": "identity",
+      "spec_version": "2.1",
+      "created": "2023-03-23T09:31:55.468Z",
+      "modified": "2023-03-23T09:31:55.468Z",
+      "name": "CISA",
+      "description": "America's Cyber Defense Agency",
+      "identity_class": "organization",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "id": "identity--636525d0-b596-46f4-9ca3-8f1c717eeb21",
+      "type": "identity",
+      "spec_version": "2.1",
+      "created": "2023-03-23T09:31:55.468Z",
+      "modified": "2023-03-23T09:31:55.468Z",
+      "name": "Securityaffairs",
+      "description": "",
+      "identity_class": "organization",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "id": "identity--d2d0d455-00aa-4be7-8828-21b29f1678f9",
+      "type": "identity",
+      "spec_version": "2.1",
+      "created": "2023-03-23T09:31:55.468Z",
+      "modified": "2023-03-23T09:31:55.468Z",
+      "name": "InfoSecurity-magazine",
+      "description": "",
+      "identity_class": "organization",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--a5544477-52c5-4a15-9bfa-78beefa91c66",
+      "created": "2020-01-31T11:00:00.000Z",
+      "modified": "2023-04-26T10:31:47.663Z",
+      "description": "Cybergeist",
+      "name": "Cybergeist",
+      "identity_class": "group"
+    },
+    {
+      "type": "marking-definition",
+      "spec_version": "2.1",
+      "id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+      "created": "2017-01-20T00:00:00.000Z",
+      "modified": "2017-01-20T00:00:00.000Z",
+      "definition_type": "tlp",
+      "name": "TLP:WHITE",
+      "definition": {
+        "tlp": "white"
+      }
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cozy bear for apt29 is evidenced by the statement:",
+      "content": "Earlier this year, Microsoft was among the victims https://www.darkreading.com/threat-intelligence/microsoft-falls-victim-russian-midnight-blizzard-cyberattack of a password spray attack by Russia-based Midnight Blizzard https://www.darkreading.com/cyberattacks-data-breaches/cisa-emergency-directive-after-midnight-blizzard-microsoft-hits (also known as Cozy Bear and APT29), compromising its corporate email systems.",
+      "authors": [
+        "cybergeist.io",
+        "DARKReading"
+      ],
+      "object_refs": [
+        "threat-actor--1abe2099-8104-4221-ab14-3c8149ca5658",
+        "report--cc5c227e-1c92-4398-842c-44a0b61c580a"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cozy-bear"
+        },
+        {
+          "source_name": "DARKReading",
+          "url": "https://www.darkreading.com/identity-access-management-security/crowdstrike-spends-boost-identity-threat-detection"
+        }
+      ],
+      "id": "note--a0083d77-459b-4c15-9a02-1f3fd981345a",
+      "spec_version": "2.1",
+      "created": "2024-11-15T15:58:05.883Z",
+      "modified": "2024-11-15T15:58:05.883Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cozy bear for apt29 is evidenced by the statement:",
+      "content": "Microsoft warns of a large-scale spear-phishing campaign by Russia-linked APT Midnight Blizzard https://securityaffairs.com/165038/hacking/midnight-blizzard-email-microsoft-customers.html (aka APT29 https://securityaffairs.com/160975/apt/russia-apt29-german-political-parties-wineloader.html SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ), targeting 1,000+ users across 100+ organizations for intelligence gathering.",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--1abe2099-8104-4221-ab14-3c8149ca5658",
+        "report--d2743aa4-1a61-486b-9455-a069e9db9a02"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cozy-bear"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/170398/apt/midnight-blizzard-apt-targeted-100-organizations.html"
+        }
+      ],
+      "id": "note--bbc2d22f-00bb-44fe-ae9d-fff147f58488",
+      "spec_version": "2.1",
+      "created": "2024-10-30T21:01:22.819Z",
+      "modified": "2024-10-30T21:01:22.819Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cozy bear for apt29 is evidenced by the statement:",
+      "content": "Russia-linked cyber espionage group APT29 https://securityaffairs.com/167797/apt/apt29-nso-group-and-intellexa-mobile-exploits.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ) target vulnerable Zimbra and JetBrains TeamCity servers as part of a mass scale campaign, U.S. and U.K. cyber agencies warned.",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--1abe2099-8104-4221-ab14-3c8149ca5658",
+        "report--a3834632-e63c-4587-88a6-4d9644815a17"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cozy-bear"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/169708/apt/apt29-target-zimbra-and-jetbrains-teamcity.html"
+        }
+      ],
+      "id": "note--361eace5-ac03-4423-92cd-307091e19252",
+      "spec_version": "2.1",
+      "created": "2024-10-13T06:15:13.147Z",
+      "modified": "2024-10-13T06:15:13.147Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cozy bear for apt29 is evidenced by the statement:",
+      "content": "In a joint advisory published on October 10, four government agencies from the US and the UK warned of an ongoing cyber espionage campaign by APT29 https://www.infosecurity-magazine.com/news/russian-hackers-spyware-exploits/ a hacking group associated with SVR, also known as Cozy Bear https://www.infosecurity-magazine.com/news/russian-cozy-bear-group-targets/ Midnight Blizzard https://www.infosecurity-magazine.com/news/russias-midnight-blizzard/ Nobelium https://www.infosecurity-magazine.com/news/french-diplomatic-russian-nobelium/ and the Dukes.",
+      "authors": [
+        "cybergeist.io",
+        "InfoSecurity-magazine"
+      ],
+      "object_refs": [
+        "threat-actor--1abe2099-8104-4221-ab14-3c8149ca5658",
+        "report--e18d5be8-083d-4644-92e3-1cbee7aa8783"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cozy-bear"
+        },
+        {
+          "source_name": "InfoSecurity-magazine",
+          "url": "https://www.infosecurity-magazine.com/news/russias-svr-targets-zimbra/"
+        }
+      ],
+      "id": "note--6382e819-9ad8-40ab-b559-6245512dcf9d",
+      "spec_version": "2.1",
+      "created": "2024-10-11T14:15:20.079Z",
+      "modified": "2024-10-11T14:15:20.079Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cozy bear for apt29 is evidenced by the statement:",
+      "content": "Google TAG (Threat Analysis Group) researchers observed the Russia-linked group APT29 https://securityaffairs.com/165025/hacking/russia-linked-group-apt29-teamviewer.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ).",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--1abe2099-8104-4221-ab14-3c8149ca5658",
+        "report--2dfc86a1-58e2-4b88-a389-a15192c31d9d"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cozy-bear"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/167797/apt/apt29-nso-group-and-intellexa-mobile-exploits.html"
+        }
+      ],
+      "id": "note--a8dbde1e-a49d-4e1d-902c-72c88289e57b",
+      "spec_version": "2.1",
+      "created": "2024-08-30T07:15:17.223Z",
+      "modified": "2024-08-30T07:15:17.223Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of bluebravo for apt29 is evidenced by the statement:",
+      "content": "Microsoft warns of a large-scale spear-phishing campaign by Russia-linked APT Midnight Blizzard https://securityaffairs.com/165038/hacking/midnight-blizzard-email-microsoft-customers.html (aka APT29 https://securityaffairs.com/160975/apt/russia-apt29-german-political-parties-wineloader.html SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ), targeting 1,000+ users across 100+ organizations for intelligence gathering.",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--677b94d3-6a2f-452e-86aa-39e726414619",
+        "report--d2743aa4-1a61-486b-9455-a069e9db9a02"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/bluebravo"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/170398/apt/midnight-blizzard-apt-targeted-100-organizations.html"
+        }
+      ],
+      "id": "note--4006ed5e-e959-4f31-97e8-5f7c97b90b26",
+      "spec_version": "2.1",
+      "created": "2024-10-30T21:01:22.819Z",
+      "modified": "2024-10-30T21:01:22.819Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of bluebravo for apt29 is evidenced by the statement:",
+      "content": "Russia-linked cyber espionage group APT29 https://securityaffairs.com/167797/apt/apt29-nso-group-and-intellexa-mobile-exploits.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ) target vulnerable Zimbra and JetBrains TeamCity servers as part of a mass scale campaign, U.S. and U.K. cyber agencies warned.",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--677b94d3-6a2f-452e-86aa-39e726414619",
+        "report--a3834632-e63c-4587-88a6-4d9644815a17"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/bluebravo"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/169708/apt/apt29-target-zimbra-and-jetbrains-teamcity.html"
+        }
+      ],
+      "id": "note--cd16ddc9-2547-46bd-a313-98118751768a",
+      "spec_version": "2.1",
+      "created": "2024-10-13T06:15:13.147Z",
+      "modified": "2024-10-13T06:15:13.147Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of bluebravo for apt29 is evidenced by the statement:",
+      "content": "Google TAG (Threat Analysis Group) researchers observed the Russia-linked group APT29 https://securityaffairs.com/165025/hacking/russia-linked-group-apt29-teamviewer.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ).",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--677b94d3-6a2f-452e-86aa-39e726414619",
+        "report--2dfc86a1-58e2-4b88-a389-a15192c31d9d"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/bluebravo"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/167797/apt/apt29-nso-group-and-intellexa-mobile-exploits.html"
+        }
+      ],
+      "id": "note--5c9ccf7f-4a05-490d-84bb-c1afd865a3c8",
+      "spec_version": "2.1",
+      "created": "2024-08-30T07:15:17.223Z",
+      "modified": "2024-08-30T07:15:17.223Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of bluebravo for apt29 is evidenced by the statement:",
+      "content": "This week TeamViewer discovered that a threat actor has breached its corporate network and some reports attribute the intrusion to the Russia-linked APT group APT29 https://securityaffairs.com/160975/apt/russia-apt29-german-political-parties-wineloader.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ).",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--677b94d3-6a2f-452e-86aa-39e726414619",
+        "report--11a2ee0b-514e-436e-a33d-4d71046492c6"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/bluebravo"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/165038/hacking/midnight-blizzard-email-microsoft-customers.html"
+        }
+      ],
+      "id": "note--3bebf93c-3014-4ff9-9e2b-6ce7770dfc73",
+      "spec_version": "2.1",
+      "created": "2024-06-30T18:15:21.161Z",
+      "modified": "2024-06-30T18:15:21.161Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of bluebravo for apt29 is evidenced by the statement:",
+      "content": "TeamViewer discovered that a threat actor has breached its corporate network and some reports attribute the intrusion to the Russia-linked APT group APT29 https://securityaffairs.com/160975/apt/russia-apt29-german-political-parties-wineloader.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ).",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--677b94d3-6a2f-452e-86aa-39e726414619",
+        "report--2961e84f-02b8-43b2-9a89-ff44b34e704a"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/bluebravo"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/165025/hacking/russia-linked-group-apt29-teamviewer.html"
+        }
+      ],
+      "id": "note--03b95589-022e-4f7b-98ad-6f6f630ed8d3",
+      "spec_version": "2.1",
+      "created": "2024-06-30T18:15:18.960Z",
+      "modified": "2024-06-30T18:15:18.960Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cozybear for apt29 is evidenced by the statement:",
+      "content": "The Russian state hacking group tracked as Midnight Blizzard, also known as APT29 and CozyBear, breached senior Microsoft executives' email inboxes after using an unsophisticated hacking technique (see: Microsoft's Latest Hack Sparks Major Security Concerns https://www.bankinfosecurity.com/microsofts-latest-hack-sparks-major-security-concerns-a-24158 ).",
+      "authors": [
+        "cybergeist.io",
+        "BankInfoSecurity"
+      ],
+      "object_refs": [
+        "threat-actor--7d136098-460a-45ba-8119-62d7eed947cb",
+        "report--3d7e87b9-4c23-4fc5-931a-7cb0f86797ea"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cozybear"
+        },
+        {
+          "source_name": "BankInfoSecurity",
+          "url": "https://www.bankinfosecurity.com/microsoft-president-admits-to-major-security-failures-a-25515"
+        }
+      ],
+      "id": "note--3c728e90-bf59-4bf8-a80c-f89d0ee9d5c8",
+      "spec_version": "2.1",
+      "created": "2024-06-13T23:15:21.079Z",
+      "modified": "2024-06-13T23:15:21.079Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cozybear for apt29 is evidenced by the statement:",
+      "content": "Microsoft fingered the Russian state hacking group it tracks as Midnight Blizzard – formerly Nobelium – also known https://attack.mitre.org/groups/G0016/ as APT29 and CozyBear.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "threat-actor--7d136098-460a-45ba-8119-62d7eed947cb",
+        "report--7ae8e1f8-bb0e-4548-8141-56ddb099de33"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cozybear"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://nationalcybersecurity.com/russian-state-hackers-penetrated-microsoft-code-repositories-hacking-cybersecurity-infosec-comptia-pentest-hacker/"
+        }
+      ],
+      "id": "note--e17bcd71-3e90-407b-9547-c3b70323b0d7",
+      "spec_version": "2.1",
+      "created": "2024-03-10T09:15:30.693Z",
+      "modified": "2024-03-10T09:15:30.693Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cozybear for apt29 is evidenced by the statement:",
+      "content": "Microsoft fingered the Russian state hacking group it tracks as Midnight Blizzard - formerly Nobelium - also known https://attack.mitre.org/groups/G0016/ as APT29 and CozyBear.",
+      "authors": [
+        "cybergeist.io",
+        "BankInfoSecurity"
+      ],
+      "object_refs": [
+        "threat-actor--7d136098-460a-45ba-8119-62d7eed947cb",
+        "report--e0b6d057-fcc6-446f-a92b-0a3e1685d843"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cozybear"
+        },
+        {
+          "source_name": "BankInfoSecurity",
+          "url": "https://www.bankinfosecurity.com/russian-state-hackers-penetrated-microsoft-code-repositories-a-24552"
+        }
+      ],
+      "id": "note--d9892cf1-b168-4147-a483-8b0a4c6e0c4b",
+      "spec_version": "2.1",
+      "created": "2024-03-08T20:15:13.834Z",
+      "modified": "2024-03-08T20:15:13.834Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cozybear for apt29 is evidenced by the statement:",
+      "content": "The regulatory filing says the hackers are \"believed\" to be \"Midnight Blizzard,\" also known https://attack.mitre.org/groups/G0016/ as APT29 and CozyBear.",
+      "authors": [
+        "cybergeist.io",
+        "BankInfoSecurity"
+      ],
+      "object_refs": [
+        "threat-actor--7d136098-460a-45ba-8119-62d7eed947cb",
+        "report--f868de8c-b98f-42ae-ba7c-42ef6fe971d8"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cozybear"
+        },
+        {
+          "source_name": "BankInfoSecurity",
+          "url": "https://www.bankinfosecurity.com/hpe-fingers-russian-state-hackers-for-email-hack-a-24183"
+        }
+      ],
+      "id": "note--63adfff4-d16c-4f37-8685-601ab22a157d",
+      "spec_version": "2.1",
+      "created": "2024-01-25T02:15:41.348Z",
+      "modified": "2024-01-25T02:15:41.348Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cozybear for apt29 is evidenced by the statement:",
+      "content": "Microsoft emphasized that hackers - belonging to a threat actor tracked as Midnight Blizzard and also known as APT29 and CozyBear - had targeted only \"a very small percentage of Microsoft corporate email accounts\" to collect \"information related to Midnight Blizzard itself.\"",
+      "authors": [
+        "cybergeist.io",
+        "BankInfoSecurity"
+      ],
+      "object_refs": [
+        "threat-actor--7d136098-460a-45ba-8119-62d7eed947cb",
+        "report--8d76327d-6a20-4f9a-87c8-e6f9fe1aecbd"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cozybear"
+        },
+        {
+          "source_name": "BankInfoSecurity",
+          "url": "https://www.bankinfosecurity.com/microsofts-latest-hack-sparks-major-security-concerns-a-24158"
+        }
+      ],
+      "id": "note--c88e5c2f-5a07-4099-b7ea-dd7eda697aba",
+      "spec_version": "2.1",
+      "created": "2024-01-23T05:15:14.717Z",
+      "modified": "2024-01-23T05:15:14.717Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of the dukes for apt29 is evidenced by the statement:",
+      "content": "Microsoft warns of a large-scale spear-phishing campaign by Russia-linked APT Midnight Blizzard https://securityaffairs.com/165038/hacking/midnight-blizzard-email-microsoft-customers.html (aka APT29 https://securityaffairs.com/160975/apt/russia-apt29-german-political-parties-wineloader.html SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ), targeting 1,000+ users across 100+ organizations for intelligence gathering.",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--b15da0d6-518d-4530-a523-448752b463ea",
+        "report--d2743aa4-1a61-486b-9455-a069e9db9a02"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/the-dukes"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/170398/apt/midnight-blizzard-apt-targeted-100-organizations.html"
+        }
+      ],
+      "id": "note--e29aaba0-7e24-44c0-9abc-3e80b1147445",
+      "spec_version": "2.1",
+      "created": "2024-10-30T21:01:22.819Z",
+      "modified": "2024-10-30T21:01:22.819Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of the dukes for apt29 is evidenced by the statement:",
+      "content": "Russia-linked cyber espionage group APT29 https://securityaffairs.com/167797/apt/apt29-nso-group-and-intellexa-mobile-exploits.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ) target vulnerable Zimbra and JetBrains TeamCity servers as part of a mass scale campaign, U.S. and U.K. cyber agencies warned.",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--b15da0d6-518d-4530-a523-448752b463ea",
+        "report--a3834632-e63c-4587-88a6-4d9644815a17"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/the-dukes"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/169708/apt/apt29-target-zimbra-and-jetbrains-teamcity.html"
+        }
+      ],
+      "id": "note--f6d639cb-102c-4caa-a903-5c3b916f2b2f",
+      "spec_version": "2.1",
+      "created": "2024-10-13T06:15:13.147Z",
+      "modified": "2024-10-13T06:15:13.147Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of the dukes for apt29 is evidenced by the statement:",
+      "content": "In a joint advisory published on October 10, four government agencies from the US and the UK warned of an ongoing cyber espionage campaign by APT29 https://www.infosecurity-magazine.com/news/russian-hackers-spyware-exploits/ a hacking group associated with SVR, also known as Cozy Bear https://www.infosecurity-magazine.com/news/russian-cozy-bear-group-targets/ Midnight Blizzard https://www.infosecurity-magazine.com/news/russias-midnight-blizzard/ Nobelium https://www.infosecurity-magazine.com/news/french-diplomatic-russian-nobelium/ and the Dukes.",
+      "authors": [
+        "cybergeist.io",
+        "InfoSecurity-magazine"
+      ],
+      "object_refs": [
+        "threat-actor--b15da0d6-518d-4530-a523-448752b463ea",
+        "report--e18d5be8-083d-4644-92e3-1cbee7aa8783"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/the-dukes"
+        },
+        {
+          "source_name": "InfoSecurity-magazine",
+          "url": "https://www.infosecurity-magazine.com/news/russias-svr-targets-zimbra/"
+        }
+      ],
+      "id": "note--abdf54c0-50e4-4c0b-98e2-241bd3c855d7",
+      "spec_version": "2.1",
+      "created": "2024-10-11T14:15:20.079Z",
+      "modified": "2024-10-11T14:15:20.079Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of the dukes for apt29 is evidenced by the statement:",
+      "content": "Google TAG (Threat Analysis Group) researchers observed the Russia-linked group APT29 https://securityaffairs.com/165025/hacking/russia-linked-group-apt29-teamviewer.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ).",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--b15da0d6-518d-4530-a523-448752b463ea",
+        "report--2dfc86a1-58e2-4b88-a389-a15192c31d9d"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/the-dukes"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/167797/apt/apt29-nso-group-and-intellexa-mobile-exploits.html"
+        }
+      ],
+      "id": "note--4c514ade-1cc4-4897-9660-2d2cada7f9f4",
+      "spec_version": "2.1",
+      "created": "2024-08-30T07:15:17.223Z",
+      "modified": "2024-08-30T07:15:17.223Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of the dukes for apt29 is evidenced by the statement:",
+      "content": "This week TeamViewer discovered that a threat actor has breached its corporate network and some reports attribute the intrusion to the Russia-linked APT group APT29 https://securityaffairs.com/160975/apt/russia-apt29-german-political-parties-wineloader.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ).",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--b15da0d6-518d-4530-a523-448752b463ea",
+        "report--11a2ee0b-514e-436e-a33d-4d71046492c6"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/the-dukes"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/165038/hacking/midnight-blizzard-email-microsoft-customers.html"
+        }
+      ],
+      "id": "note--3b7b916e-0112-4aba-8fa0-807ddaab997b",
+      "spec_version": "2.1",
+      "created": "2024-06-30T18:15:21.161Z",
+      "modified": "2024-06-30T18:15:21.161Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of nobelium for apt29 is evidenced by the statement:",
+      "content": "Microsoft warns of a large-scale spear-phishing campaign by Russia-linked APT Midnight Blizzard https://securityaffairs.com/165038/hacking/midnight-blizzard-email-microsoft-customers.html (aka APT29 https://securityaffairs.com/160975/apt/russia-apt29-german-political-parties-wineloader.html SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ), targeting 1,000+ users across 100+ organizations for intelligence gathering.",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--8681f11a-24ac-4e62-935f-da35cbc6ed9f",
+        "report--d2743aa4-1a61-486b-9455-a069e9db9a02"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/nobelium"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/170398/apt/midnight-blizzard-apt-targeted-100-organizations.html"
+        }
+      ],
+      "id": "note--b475879d-a4eb-4d2d-8378-dbb5e78985bd",
+      "spec_version": "2.1",
+      "created": "2024-10-30T21:01:22.819Z",
+      "modified": "2024-10-30T21:01:22.819Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of nobelium for apt29 is evidenced by the statement:",
+      "content": "Russia-linked cyber espionage group APT29 https://securityaffairs.com/167797/apt/apt29-nso-group-and-intellexa-mobile-exploits.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ) target vulnerable Zimbra and JetBrains TeamCity servers as part of a mass scale campaign, U.S. and U.K. cyber agencies warned.",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--8681f11a-24ac-4e62-935f-da35cbc6ed9f",
+        "report--a3834632-e63c-4587-88a6-4d9644815a17"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/nobelium"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/169708/apt/apt29-target-zimbra-and-jetbrains-teamcity.html"
+        }
+      ],
+      "id": "note--924615b3-ea4d-440c-b10e-cc333724899d",
+      "spec_version": "2.1",
+      "created": "2024-10-13T06:15:13.147Z",
+      "modified": "2024-10-13T06:15:13.147Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of nobelium for apt29 is evidenced by the statement:",
+      "content": "In a joint advisory published on October 10, four government agencies from the US and the UK warned of an ongoing cyber espionage campaign by APT29 https://www.infosecurity-magazine.com/news/russian-hackers-spyware-exploits/ a hacking group associated with SVR, also known as Cozy Bear https://www.infosecurity-magazine.com/news/russian-cozy-bear-group-targets/ Midnight Blizzard https://www.infosecurity-magazine.com/news/russias-midnight-blizzard/ Nobelium https://www.infosecurity-magazine.com/news/french-diplomatic-russian-nobelium/ and the Dukes.",
+      "authors": [
+        "cybergeist.io",
+        "InfoSecurity-magazine"
+      ],
+      "object_refs": [
+        "threat-actor--8681f11a-24ac-4e62-935f-da35cbc6ed9f",
+        "report--e18d5be8-083d-4644-92e3-1cbee7aa8783"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/nobelium"
+        },
+        {
+          "source_name": "InfoSecurity-magazine",
+          "url": "https://www.infosecurity-magazine.com/news/russias-svr-targets-zimbra/"
+        }
+      ],
+      "id": "note--6044e0a1-b6c2-4242-b57e-b970ca331881",
+      "spec_version": "2.1",
+      "created": "2024-10-11T14:15:20.079Z",
+      "modified": "2024-10-11T14:15:20.079Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of nobelium for apt29 is evidenced by the statement:",
+      "content": "Google TAG (Threat Analysis Group) researchers observed the Russia-linked group APT29 https://securityaffairs.com/165025/hacking/russia-linked-group-apt29-teamviewer.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ).",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--8681f11a-24ac-4e62-935f-da35cbc6ed9f",
+        "report--2dfc86a1-58e2-4b88-a389-a15192c31d9d"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/nobelium"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/167797/apt/apt29-nso-group-and-intellexa-mobile-exploits.html"
+        }
+      ],
+      "id": "note--b4f085aa-6d0f-4a7f-813b-497e7eab01e5",
+      "spec_version": "2.1",
+      "created": "2024-08-30T07:15:17.223Z",
+      "modified": "2024-08-30T07:15:17.223Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of nobelium for apt29 is evidenced by the statement:",
+      "content": "Microsoft identified Nobelium as a new name for this continuation of APT29 in March 2021, but publicly available reports from multiple security vendors continue to use Nobelium and APT29 as interchangeable aliases.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "threat-actor--8681f11a-24ac-4e62-935f-da35cbc6ed9f",
+        "report--84d1d8dd-7b13-47be-a524-29f8bc333fcb"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/nobelium"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://securityboulevard.com/2024/02/response-to-cisa-advisory-aa24-057a-svr-cyber-actors-adapt-tactics-for-initial-cloud-access/"
+        }
+      ],
+      "id": "note--2234ff53-0674-44e2-bb31-7375bd7e4e34",
+      "spec_version": "2.1",
+      "created": "2024-08-01T16:35:29.686Z",
+      "modified": "2024-08-01T16:35:29.686Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of yttrium for apt29 is evidenced by the statement:",
+      "content": "Third-party security researchers have attributed the attack to a threat actor named APT29 or CozyBear, which largely overlaps with the activity group that Microsoft calls YTTRIUM.",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "threat-actor--4b425bc3-9086-4756-87e8-5f1691dc725a",
+        "report--6dbd3b17-cf54-42fb-a50e-e1ea3ed4d090"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/yttrium"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.microsoft.com/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/"
+        }
+      ],
+      "id": "note--b6b04e15-a9e8-4f93-b0c6-e4d61eac8642",
+      "spec_version": "2.1",
+      "created": "2023-05-22T23:30:05.528Z",
+      "modified": "2023-05-22T23:30:05.528Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of yttrium for apt29 is evidenced by the statement:",
+      "content": "Cozy Bear is CrowdStrike's name for the group, but both Mandiant and Microsoft had two names for the group — UNC2452 and APT29 for Mandiant, and NOBELIUM and YTTRIUM for Microsoft — highlighting that differences in analysis could lead to different conclusions.",
+      "authors": [
+        "cybergeist.io",
+        "DARKReading"
+      ],
+      "object_refs": [
+        "threat-actor--4b425bc3-9086-4756-87e8-5f1691dc725a",
+        "report--06f2f5eb-a5b0-4dfe-b643-1424ffe30c6c"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/yttrium"
+        },
+        {
+          "source_name": "DARKReading",
+          "url": "https://www.darkreading.com/threat-intelligence/threat-actor-names-proliferate-adding-confusion"
+        }
+      ],
+      "id": "note--4d2bc38f-af21-428f-90f8-855ac07c8086",
+      "spec_version": "2.1",
+      "created": "2023-05-22T17:19:13.053Z",
+      "modified": "2023-05-22T17:19:13.053Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of unc2452 for apt29 is evidenced by the statement:",
+      "content": "Merging UNC2452 into APT29 has given us a better understanding of how APT29’s operations have evolved over the years, including how the group further honed its technical skills to bypass security controls, scale TTPs for emerging technology, blend in with victim environments, and hinder detection across all aspects of its operations.",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "threat-actor--7de6ad8f-13ca-4a63-93f7-986d67d35547",
+        "report--589072e5-e033-4864-8aa6-c995e90cf0f4"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/unc2452"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.mandiant.com/resources/blog/unc2452-merged-into-apt29"
+        }
+      ],
+      "id": "note--b29c18b1-0ca5-4c5a-b671-91dc8b098399",
+      "spec_version": "2.1",
+      "created": "2023-12-13T12:19:59.952Z",
+      "modified": "2023-12-13T12:19:59.952Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of unc2452 for apt29 is evidenced by the statement:",
+      "content": "The merge https://www.mandiant.com/resources/how-mandiant-tracks-uncategorized-threat-actors of UNC2452 into APT29 significantly expands our knowledge of APT29 and showcases an evolving, disciplined, and highly skilled threat actor that operates with a heightened level of operational security (OPSEC) for the purposes of intelligence collection.",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "threat-actor--7de6ad8f-13ca-4a63-93f7-986d67d35547",
+        "report--589072e5-e033-4864-8aa6-c995e90cf0f4"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/unc2452"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.mandiant.com/resources/blog/unc2452-merged-into-apt29"
+        }
+      ],
+      "id": "note--d9cb16e3-0e05-4dec-87fc-e76fc7b9864b",
+      "spec_version": "2.1",
+      "created": "2023-12-13T12:19:55.897Z",
+      "modified": "2023-12-13T12:19:55.897Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of unc2452 for apt29 is evidenced by the statement:",
+      "content": "Our evaluation is based on firsthand data gathered by Mandiant and is the result of an extensive comparison and review of UNC2452 and our detailed knowledge of APT29.",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "threat-actor--7de6ad8f-13ca-4a63-93f7-986d67d35547",
+        "report--589072e5-e033-4864-8aa6-c995e90cf0f4"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/unc2452"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.mandiant.com/resources/blog/unc2452-merged-into-apt29"
+        }
+      ],
+      "id": "note--a3d909ca-a84e-453e-8cf4-310597596993",
+      "spec_version": "2.1",
+      "created": "2023-12-13T12:19:55.676Z",
+      "modified": "2023-12-13T12:19:55.676Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of unc2452 for apt29 is evidenced by the statement:",
+      "content": "Mandiant has gathered sufficient evidence to assess that the activity tracked as UNC2452, the group name used to track the SolarWinds compromise in December 2020 https://www.mandiant.com/resources/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor is attributable to APT29.",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "threat-actor--7de6ad8f-13ca-4a63-93f7-986d67d35547",
+        "report--589072e5-e033-4864-8aa6-c995e90cf0f4"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/unc2452"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.mandiant.com/resources/blog/unc2452-merged-into-apt29"
+        }
+      ],
+      "id": "note--406ec4a5-518e-4102-bf36-3da376ad355e",
+      "spec_version": "2.1",
+      "created": "2023-12-13T12:19:55.541Z",
+      "modified": "2023-12-13T12:19:55.541Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of unc2452 for apt29 is evidenced by the statement:",
+      "content": "Last month, Microsoft revealed advanced persistent threat group APT29 (also tracked as Midnight Blizzard, Cozy Bear and UNC2452) had used stolen Microsoft 365 instances to send Teams messages masquerading as IT support staff communications https://www.scmagazine.com/news/microsoft-teams-mfa-codes The gang attempted to steal account credentials by luring victims into approving multi-factor authentication prompts.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "threat-actor--7de6ad8f-13ca-4a63-93f7-986d67d35547",
+        "report--d6b556fa-65d6-4ea9-ad3a-6347ffee1a12"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/unc2452"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://www.scmagazine.com/news/microsoft-promises-to-act-as-teams-continues-to-get-pummeled-by-phishing-attacks"
+        }
+      ],
+      "id": "note--fcde24a4-2cb8-441c-b38d-e0e3125c5798",
+      "spec_version": "2.1",
+      "created": "2023-09-14T21:16:20.808Z",
+      "modified": "2023-09-14T21:16:20.808Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of midnight blizzard for apt29 is evidenced by the statement:",
+      "content": "Midnight Blizzard (aka APT29), a group of Russian hackers tied to the country’s Foreign Intelligence Service (SVR), has leveraged information stolen from Microsoft corporate email systems to burrow into the company’s source code repositories and internal systems.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "threat-actor--3f4c6fbb-8a1c-4f73-84ed-fb9b5d2d3504",
+        "report--b1f81b6f-4519-4796-ab41-c995ae7b09ae"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/midnight-blizzard"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://www.helpnetsecurity.com/2024/03/17/week-in-review-cybersecurity-job-openings-hackers-use-1-day-flaws-to-drop-custom-linux-malware/"
+        }
+      ],
+      "id": "note--d32a6483-09c0-44b6-a445-efb85973be10",
+      "spec_version": "2.1",
+      "created": "2024-11-15T16:00:58.916Z",
+      "modified": "2024-11-15T16:00:58.916Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of midnight blizzard for apt29 is evidenced by the statement:",
+      "content": "Earlier this year, Microsoft was among the victims https://www.darkreading.com/threat-intelligence/microsoft-falls-victim-russian-midnight-blizzard-cyberattack of a password spray attack by Russia-based Midnight Blizzard https://www.darkreading.com/cyberattacks-data-breaches/cisa-emergency-directive-after-midnight-blizzard-microsoft-hits (also known as Cozy Bear and APT29), compromising its corporate email systems.",
+      "authors": [
+        "cybergeist.io",
+        "DARKReading"
+      ],
+      "object_refs": [
+        "threat-actor--3f4c6fbb-8a1c-4f73-84ed-fb9b5d2d3504",
+        "report--cc5c227e-1c92-4398-842c-44a0b61c580a"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/midnight-blizzard"
+        },
+        {
+          "source_name": "DARKReading",
+          "url": "https://www.darkreading.com/identity-access-management-security/crowdstrike-spends-boost-identity-threat-detection"
+        }
+      ],
+      "id": "note--403f2561-3740-4ec2-92ce-0aaad8f2303f",
+      "spec_version": "2.1",
+      "created": "2024-11-15T15:58:05.883Z",
+      "modified": "2024-11-15T15:58:05.883Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of midnight blizzard for apt29 is evidenced by the statement:",
+      "content": "Microsoft warns of a large-scale spear-phishing campaign by Russia-linked APT Midnight Blizzard https://securityaffairs.com/165038/hacking/midnight-blizzard-email-microsoft-customers.html (aka APT29 https://securityaffairs.com/160975/apt/russia-apt29-german-political-parties-wineloader.html SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ), targeting 1,000+ users across 100+ organizations for intelligence gathering.",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--3f4c6fbb-8a1c-4f73-84ed-fb9b5d2d3504",
+        "report--d2743aa4-1a61-486b-9455-a069e9db9a02"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/midnight-blizzard"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/170398/apt/midnight-blizzard-apt-targeted-100-organizations.html"
+        }
+      ],
+      "id": "note--6dfb32da-1089-4852-b587-9fb61851803e",
+      "spec_version": "2.1",
+      "created": "2024-10-30T21:01:22.819Z",
+      "modified": "2024-10-30T21:01:22.819Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of midnight blizzard for apt29 is evidenced by the statement:",
+      "content": "Microsoft has warned of an ongoing infostealing campaign from notorious Russian APT group Midnight Blizzard (aka APT29, CozyBear) in which thousands of targets were sent spear phishing emails.",
+      "authors": [
+        "cybergeist.io",
+        "InfoSecurity-magazine"
+      ],
+      "object_refs": [
+        "threat-actor--3f4c6fbb-8a1c-4f73-84ed-fb9b5d2d3504",
+        "report--8bfa1712-0a45-4021-9ade-ee34ed60efc0"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/midnight-blizzard"
+        },
+        {
+          "source_name": "InfoSecurity-magazine",
+          "url": "https://www.infosecurity-magazine.com/news/apt29-spearphishing-thousands-rdp/"
+        }
+      ],
+      "id": "note--e4442d09-9f0a-454e-a8b6-932b9822f24f",
+      "spec_version": "2.1",
+      "created": "2024-10-30T11:01:32.636Z",
+      "modified": "2024-10-30T11:01:32.636Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of midnight blizzard for apt29 is evidenced by the statement:",
+      "content": "Russia-linked cyber espionage group APT29 https://securityaffairs.com/167797/apt/apt29-nso-group-and-intellexa-mobile-exploits.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ) target vulnerable Zimbra and JetBrains TeamCity servers as part of a mass scale campaign, U.S. and U.K. cyber agencies warned.",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "threat-actor--3f4c6fbb-8a1c-4f73-84ed-fb9b5d2d3504",
+        "report--a3834632-e63c-4587-88a6-4d9644815a17"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/midnight-blizzard"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/169708/apt/apt29-target-zimbra-and-jetbrains-teamcity.html"
+        }
+      ],
+      "id": "note--1d82cb45-4630-493d-b2b5-ee2ec80df558",
+      "spec_version": "2.1",
+      "created": "2024-10-13T06:15:13.147Z",
+      "modified": "2024-10-13T06:15:13.147Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of stellarparticle for apt29 is evidenced by the statement:",
+      "content": "StellarParticle is a campaign tracked by CrowdStrike as related to the SUNSPOT implant from the SolarWinds intrusion in December 2020 and associated with COZY BEAR (aka APT29, “The Dukes”).",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "threat-actor--c8becc4d-e941-4c07-996d-cee126c1d078",
+        "report--58af3518-6778-446f-b541-7b3252009c06"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/stellarparticle"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/"
+        }
+      ],
+      "id": "note--c2afa711-265f-4263-93ac-03ec2f5c1d57",
+      "spec_version": "2.1",
+      "created": "2023-05-22T23:31:22.231Z",
+      "modified": "2023-05-22T23:31:22.231Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of stellarparticle for apt29 is evidenced by the statement:",
+      "content": "APT29 https://www.trendmicro.com/en_us/research/20/d/mitre-evaluation2020.html (also known as https://attack.mitre.org/groups/G0016/ IRON RITUAL, IRON HEMLOCK, NobleBaron, Dark Halo, StellarParticle, NOBELIUM, UNC2452, YTTRIUM, The Dukes, Cozy Bear, and CozyDuke) is a threat actor known to target Western government organizations.",
+      "authors": [
+        "cybergeist.io",
+        "Trend Micro"
+      ],
+      "object_refs": [
+        "threat-actor--c8becc4d-e941-4c07-996d-cee126c1d078",
+        "report--bc7198e1-a027-4b52-95d5-c4b35b30aa44"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/stellarparticle"
+        },
+        {
+          "source_name": "Trend Micro",
+          "url": "https://www.trendmicro.com/en_us/research/23/b/invitation-to-secret-event-uncovering-earth-yako-campaigns.html"
+        }
+      ],
+      "id": "note--b59c39b4-5e68-4c9c-b7ab-35df888fae44",
+      "spec_version": "2.1",
+      "created": "2023-05-22T21:10:12.442Z",
+      "modified": "2023-05-22T21:10:12.442Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cloaked ursa for apt29 is evidenced by the statement:",
+      "content": "We have studied examples of attackers employing this technique in recent Unit 42 posts, including an instance by the APT Cloaked Ursa https://unit42.paloaltonetworks.com/cloaked-ursa-phishing/ (aka APT29), and as part of our Threat Hunting series https://unit42.paloaltonetworks.com/unsigned-dlls/#:~:text=DLL%20order%20hijacking%20%E2%80%93%20This%20refers,name%20of%20a%20known%20DLL.",
+      "authors": [
+        "cybergeist.io",
+        "Unit42"
+      ],
+      "object_refs": [
+        "threat-actor--e5ad3ca1-33ce-47dd-9957-4454289ea70b",
+        "report--a3181f8f-4b3a-4fed-96fa-4c05b11ef9ef"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cloaked-ursa"
+        },
+        {
+          "source_name": "Unit42",
+          "url": "https://unit42.paloaltonetworks.com/dll-hijacking-techniques/"
+        }
+      ],
+      "id": "note--0c865258-4efe-48ae-9200-58da8b94785e",
+      "spec_version": "2.1",
+      "created": "2024-02-23T15:15:29.475Z",
+      "modified": "2024-02-23T15:15:29.475Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cloaked ursa for apt29 is evidenced by the statement:",
+      "content": "The novel phishing campaign was carried out by the ‘Cloaked Ursa’ group (aka Cozy Bear, APT29), which the US and UK have publicly attributed https://media.defense.gov/2021/Apr/15/2002621240/-1/-1/0/CSA_SVR_TARGETS_US_ALLIES_UOO13234021.PDF to Russia’s Foreign Intelligence Service (SVR).",
+      "authors": [
+        "cybergeist.io",
+        "InfoSecurity-magazine"
+      ],
+      "object_refs": [
+        "threat-actor--e5ad3ca1-33ce-47dd-9957-4454289ea70b",
+        "report--eac56dce-f99f-4d4c-93a7-b0449fb00826"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cloaked-ursa"
+        },
+        {
+          "source_name": "InfoSecurity-magazine",
+          "url": "https://www.infosecurity-magazine.com/news/diplomats-ukraine-bmw-phishing/"
+        }
+      ],
+      "id": "note--3530ce6b-3111-4332-a473-e94de33f79c8",
+      "spec_version": "2.1",
+      "created": "2023-07-12T17:15:10.682Z",
+      "modified": "2023-07-12T17:15:10.682Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cloaked ursa for apt29 is evidenced by the statement:",
+      "content": "The Russia-linked threat-state actor BlueBravo (aka APT29, Cloaked Ursa, and Midnight Blizzard, Nobelium) has been observed targeting diplomatic entities throughout Eastern Europe.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "threat-actor--e5ad3ca1-33ce-47dd-9957-4454289ea70b",
+        "report--32f84db3-58f6-47d1-acdc-cfe8be56073d"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cloaked-ursa"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://www.itsecuritynews.info/russian-apt-bluebravo-targets-diplomatic-entities-with-graphicalproton-backdoor/"
+        }
+      ],
+      "id": "note--7dc564c7-2267-423c-bc7f-5106c7da08f7",
+      "spec_version": "2.1",
+      "created": "2023-07-29T03:15:37.705Z",
+      "modified": "2023-07-29T03:15:37.705Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cloaked ursa for apt29 is evidenced by the statement:",
+      "content": "The Russian nation-state actor known as APT29, Cloaked Ursa, and Midnight Blizzard (formerly Nobelium) and BlueBravo has been observed https://go.recordedfuture.com/hubfs/reports/cta-2023-0727-1.pdf using a new GraphicalProton malware in cyber-espionage attacks targeting diplomatic entities throughout Eastern Europe.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "threat-actor--e5ad3ca1-33ce-47dd-9957-4454289ea70b",
+        "report--f5381bf9-5514-4d1d-8fa7-8fc95493f24c"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cloaked-ursa"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://www.cybersecurity-help.cz/blog/3401.html"
+        }
+      ],
+      "id": "note--e47970b1-e6ac-4248-9dcf-af416e590c6a",
+      "spec_version": "2.1",
+      "created": "2023-07-28T17:16:20.914Z",
+      "modified": "2023-07-28T17:16:20.914Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Alias Evidence: The possible alias of cloaked ursa for apt29 is evidenced by the statement:",
+      "content": "BlueBravo https://thehackernews.com/2023/06/microsoft-warns-of-widescale-credential.html also known by the names APT29, Cloaked Ursa, and Midnight Blizzard (formerly Nobelium), is attributed to Russia's Foreign Intelligence Service (SVR), and has in the past used https://thehackernews.com/2023/03/winter-vivern-apt-group-targeting.html Dropbox, Firebase, Google Drive, Notion, and Trello to evade detection and stealthily establish communications with infected hosts.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "threat-actor--e5ad3ca1-33ce-47dd-9957-4454289ea70b",
+        "report--c00b759e-4a8c-499f-a769-69af1791b0e1"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cloaked-ursa"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://thehackernews.com/2023/07/bluebravo-deploys-graphicalproton.html"
+        }
+      ],
+      "id": "note--8d7a3c69-2d91-4fac-a3af-e19e9fcf3b52",
+      "spec_version": "2.1",
+      "created": "2023-07-28T12:15:43.868Z",
+      "modified": "2023-07-28T12:15:43.868Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with wellmess:",
+      "content": "The NCSC has publicly attributed WellMess to the threat actor we track as Blue Kitsune (a.k.a. APT29).",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "malware--d2393777-01a0-4a93-a3f4-ac1af4f035c9",
+        "report--cb6463db-59e2-4579-ba10-de2221ed824c"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/wellmess"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.pwc.co.uk/issues/cyber-security-services/insights/wellmess-analysis-command-control.html"
+        }
+      ],
+      "id": "note--7698ac27-96c6-478e-904a-d8df29e5f038",
+      "spec_version": "2.1",
+      "created": "2023-12-13T12:18:48.408Z",
+      "modified": "2023-12-13T12:18:48.408Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with wellmess:",
+      "content": "The report, published with Canada’s Communications Security Establishment and the US National Security Agency, attributed WellMess to the threat actor we track as Blue Kitsune (known in open source as APT29, Cozy Bear, and the Dukes).",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "malware--d2393777-01a0-4a93-a3f4-ac1af4f035c9",
+        "report--3849eb7d-1fee-465d-a8a6-8f79aabd9e15"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/wellmess"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.pwc.co.uk/issues/cyber-security-services/insights/cleaning-up-after-wellmess.html"
+        }
+      ],
+      "id": "note--0c97006b-8046-43a1-8808-0e4153c7bf1b",
+      "spec_version": "2.1",
+      "created": "2023-05-22T23:04:17.648Z",
+      "modified": "2023-05-22T23:04:17.648Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with wellmess:",
+      "content": "In July 2020, the UK’s National Cyber Security Centre (NCSC) published a report https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development.pdf on APT29 operations using WellMess.",
+      "authors": [
+        "cybergeist.io",
+        "Recorded Future"
+      ],
+      "object_refs": [
+        "malware--d2393777-01a0-4a93-a3f4-ac1af4f035c9",
+        "report--94af7cd4-a583-443a-94f5-72f5edc05697"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/wellmess"
+        },
+        {
+          "source_name": "Recorded Future",
+          "url": "https://www.recordedfuture.com/2022-adversary-infrastructure-report"
+        }
+      ],
+      "id": "note--c1d22994-581c-420d-bb56-0cdfcbed485c",
+      "spec_version": "2.1",
+      "created": "2023-05-22T22:07:09.106Z",
+      "modified": "2023-05-22T22:07:09.106Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with ursa:",
+      "content": "The novel phishing campaign was carried out by the ‘Cloaked Ursa’ group (aka Cozy Bear, APT29), which the US and UK have publicly attributed https://media.defense.gov/2021/Apr/15/2002621240/-1/-1/0/CSA_SVR_TARGETS_US_ALLIES_UOO13234021.PDF to Russia’s Foreign Intelligence Service (SVR).",
+      "authors": [
+        "cybergeist.io",
+        "InfoSecurity-magazine"
+      ],
+      "object_refs": [
+        "malware--62407b69-6c63-443a-b0a0-8c64d6f169d3",
+        "report--eac56dce-f99f-4d4c-93a7-b0449fb00826"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/ursa"
+        },
+        {
+          "source_name": "InfoSecurity-magazine",
+          "url": "https://www.infosecurity-magazine.com/news/diplomats-ukraine-bmw-phishing/"
+        }
+      ],
+      "id": "note--8f1a3173-9147-49c1-a612-39b26f2e56b8",
+      "spec_version": "2.1",
+      "created": "2023-07-12T17:15:10.682Z",
+      "modified": "2023-07-12T17:15:10.682Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with ursa:",
+      "content": "Apparently this was spotted by the group Palo Alto Networks calls Cloaked Ursa (which other researchers call APT29, UAC-0029, Cozy Bear, Nobelium or, in Microsoft’s new nomenclature Midnight Blizzard).",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "malware--62407b69-6c63-443a-b0a0-8c64d6f169d3",
+        "report--5dfcea23-4e7f-4b3e-af15-d5fc63ad59d2"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/ursa"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://www.itworldcanada.com/article/russians-try-to-exploit-sale-of-a-bmw-5-to-hack-diplomats-in-ukraine-report/542713"
+        }
+      ],
+      "id": "note--b3a4783b-7064-4537-841a-a10bd4152fb0",
+      "spec_version": "2.1",
+      "created": "2023-07-12T21:15:57.550Z",
+      "modified": "2023-07-12T21:15:57.550Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with ursa:",
+      "content": "IOCs: Cloaked Ursa / APT29 Phishing Tweet (March 10, 2023) https://github.com/pan-unit42/tweets/blob/master/2023-03-10-IOCs-for-CloakedUrsa-APT29-Activity.txt – Palo Alto Networks, Unit 42",
+      "authors": [
+        "cybergeist.io",
+        "Unit42"
+      ],
+      "object_refs": [
+        "malware--62407b69-6c63-443a-b0a0-8c64d6f169d3",
+        "report--19708f37-f66c-4628-95e2-ee750fc671bb"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/ursa"
+        },
+        {
+          "source_name": "Unit42",
+          "url": "https://unit42.paloaltonetworks.com/cloaked-ursa-phishing/"
+        }
+      ],
+      "id": "note--a7a040bf-0813-4599-82bb-501e30f9d38f",
+      "spec_version": "2.1",
+      "created": "2023-07-12T11:16:11.313Z",
+      "modified": "2023-07-12T11:16:11.313Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with ursa:",
+      "content": "Cloaked Ursa / APT29 Phishing Tweet (March 10, 2023) https://twitter.com/Unit42_Intel/status/1634290575393402883 – Palo Alto Networks, Unit 42",
+      "authors": [
+        "cybergeist.io",
+        "Unit42"
+      ],
+      "object_refs": [
+        "malware--62407b69-6c63-443a-b0a0-8c64d6f169d3",
+        "report--19708f37-f66c-4628-95e2-ee750fc671bb"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/ursa"
+        },
+        {
+          "source_name": "Unit42",
+          "url": "https://unit42.paloaltonetworks.com/cloaked-ursa-phishing/"
+        }
+      ],
+      "id": "note--8e21c3ce-223c-4633-be34-2cbfd2448fc8",
+      "spec_version": "2.1",
+      "created": "2023-07-12T11:16:11.092Z",
+      "modified": "2023-07-12T11:16:11.092Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with ursa:",
+      "content": "Russia’s Foreign Intelligence Service hackers, which we call Cloaked Ursa (aka APT29, UAC-0029, Midnight Blizzard/Nobelium, Cozy Bear) are well known for targeting diplomatic missions globally.",
+      "authors": [
+        "cybergeist.io",
+        "Unit42"
+      ],
+      "object_refs": [
+        "malware--62407b69-6c63-443a-b0a0-8c64d6f169d3",
+        "report--19708f37-f66c-4628-95e2-ee750fc671bb"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/ursa"
+        },
+        {
+          "source_name": "Unit42",
+          "url": "https://unit42.paloaltonetworks.com/cloaked-ursa-phishing/"
+        }
+      ],
+      "id": "note--3158fc63-222d-4011-b80a-8f6f146cd439",
+      "spec_version": "2.1",
+      "created": "2023-07-12T11:16:09.534Z",
+      "modified": "2023-07-12T11:16:09.534Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with sunburst:",
+      "content": "Several partners, including in the US, consider Nobelium to be associated with APT29, to which both the 2015 attack against the American Democratic National Committee https://www.infosecurity-magazine.com/news/russians-accused-of-hacking-dnc/ and the 2020 Sunburst attack targeting SolarWinds products https://www.infosecurity-magazine.com/news/three-more-vulnerabilities/ were attributed.",
+      "authors": [
+        "cybergeist.io",
+        "InfoSecurity-magazine"
+      ],
+      "object_refs": [
+        "malware--f82c2814-fd9d-40e6-b906-d1f1eebb4ed9",
+        "report--82577b4b-a94e-4fd7-b9a2-d60a11eb04d1"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/sunburst"
+        },
+        {
+          "source_name": "InfoSecurity-magazine",
+          "url": "https://www.infosecurity-magazine.com/news/french-diplomatic-russian-nobelium/"
+        }
+      ],
+      "id": "note--e862535f-2273-4045-a678-55689353af0c",
+      "spec_version": "2.1",
+      "created": "2024-06-20T13:15:22.890Z",
+      "modified": "2024-06-20T13:15:22.890Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with sunburst:",
+      "content": "For compromises during that timeframe that featured custom tools, APT29 used custom malware families including SUNBURST, BEACON droppers RAINDROP and TEARDROP, a credential theft tool called MAMADOGS, and CRIMSONBOX; a .NET tool that extracts the token signing certificate from an ADFS configuration, assisting the group in forging SAML tokens.",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "malware--f82c2814-fd9d-40e6-b906-d1f1eebb4ed9",
+        "report--589072e5-e033-4864-8aa6-c995e90cf0f4"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/sunburst"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.mandiant.com/resources/blog/unc2452-merged-into-apt29"
+        }
+      ],
+      "id": "note--c6aeb5a1-5a4b-4689-9b98-ebd8587014d4",
+      "spec_version": "2.1",
+      "created": "2023-12-13T12:19:58.410Z",
+      "modified": "2023-12-13T12:19:58.410Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with sunburst:",
+      "content": "Table 1: Examples of APT29 network- and host-based OPSEC measures Network-based OPSEC Host-based OPSEC C2 Consideration Used legitimate services for C2 Adjusted C2 callout intervals Blending In Matched hostnames to the victim environment’s naming convention Leveraged native Microsoft tools Infrastructure OPSEC, as detailed in this posthttps://www.mandiant.com/resources/russian-targeting-gov-business Localized “last mile” infrastructure near victim organizations by using residential IP address ranges to authenticate to victim environments Geolocating Azure infrastructure in the same geography as the victim infrastructure Used a mixture of TOR, VPS, and VPNs to access victim environments Used IP address proxy providers that proxy traffic though mobile devices, to make traffic appear as if it was originating from domestic ISPs and devices Separate Infrastructure Separated SUNBURST callback infrastructure from other follow-on malware families to preserve access and protect this toolset if follow-on activity was discovered Restricted C2 reuse by establishing unique C2 servers per victim and single-use C2 servers for individual hosts Looking Legitimate Modified a legitimate Microsoft DLL to enable the DLL Side Loading of a malicious payload Masqueraded malicious scheduled tasks, processes, and shortcut files as legitimate tasks, binaries, and documents Replaced a legitimate binary with a malicious file of the same name and then reinstalled the original file after the malicious binary completed execution Minimized the size of exfiltrated data and used encrypted connections for data exfiltration Disabling Security Controls Detected and disabled antivirus and system logging features then reenabled these features in some cases upon completion of malicious activity Disabled SysInternals Sysmon and Splunk Forwarders on victim machines that they accessed via Microsoft Remote Desktop Covering Tracks Cleared Windows Event Logs Established persistence to perform reconnaissance, removed it before moving laterally to another system, and then verified that the persistence was removed Extensive use of Microsoft’s secure delete tool (SDELETE) following interactive operations on a host Monitoring Remediation Accessed IT personnel mailboxes to monitor remediation efforts and adjust TTPs as needed Using Varying TTPs Employed slight variations in TTPs and malware for spear phishing campaigns Sophistication.",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "malware--f82c2814-fd9d-40e6-b906-d1f1eebb4ed9",
+        "report--589072e5-e033-4864-8aa6-c995e90cf0f4"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/sunburst"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.mandiant.com/resources/blog/unc2452-merged-into-apt29"
+        }
+      ],
+      "id": "note--ee9f1ba3-421c-4bc3-b3d1-66eda606ab10",
+      "spec_version": "2.1",
+      "created": "2023-12-13T12:19:57.306Z",
+      "modified": "2023-12-13T12:19:57.306Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with sunburst:",
+      "content": "For instance, APT29 went to considerable lengths to hide its SUNBURST backdoor https://www.mandiant.com/resources/sunburst-additional-technical-details within the legitimate SolarWinds code during the initial campaign.",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "malware--f82c2814-fd9d-40e6-b906-d1f1eebb4ed9",
+        "report--589072e5-e033-4864-8aa6-c995e90cf0f4"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/sunburst"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.mandiant.com/resources/blog/unc2452-merged-into-apt29"
+        }
+      ],
+      "id": "note--c787e8cb-08ef-459e-b822-8f1ccc11777f",
+      "spec_version": "2.1",
+      "created": "2023-12-13T12:19:56.965Z",
+      "modified": "2023-12-13T12:19:56.965Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with sunburst:",
+      "content": "“APT29 (aka Nobelium) executed one of the most advanced, well-orchestrated attacks in the last several years with the SUNBURST software supply chain compromise.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "malware--f82c2814-fd9d-40e6-b906-d1f1eebb4ed9",
+        "report--7b87eb68-fd95-4b3f-8958-40a9400a2e73"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/sunburst"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://securityboulevard.com/2023/06/the-cloud-security-risks-of-overprivileged-vendors/"
+        }
+      ],
+      "id": "note--f562a783-a016-4433-bcf9-84fedabdadca",
+      "spec_version": "2.1",
+      "created": "2023-06-30T19:16:03.052Z",
+      "modified": "2023-06-30T19:16:03.052Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with poshspy:",
+      "content": "APT29 APT29 is known for using stealthy backdoors like POSHSPY, which leverages built-in Windows features such as PowerShell and Windows Management Instrumentation.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "malware--245e7eaf-686d-47d6-bc57-f29d74cd1190",
+        "report--ef505061-140c-49c4-9f5a-a619b458bc0f"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/poshspy"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://michaelpeters.org/advanced-threat-techniques-living-off-the-land/"
+        }
+      ],
+      "id": "note--bb2760f0-6be5-4efd-bb94-548e08db8ee2",
+      "spec_version": "2.1",
+      "created": "2023-10-18T20:15:37.307Z",
+      "modified": "2023-10-18T20:15:37.307Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with poshspy:",
+      "content": "APT29 deployed POSHSPY as a failover backdoor if they lost access to their primary backdoors.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "malware--245e7eaf-686d-47d6-bc57-f29d74cd1190",
+        "report--ef505061-140c-49c4-9f5a-a619b458bc0f"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/poshspy"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://michaelpeters.org/advanced-threat-techniques-living-off-the-land/"
+        }
+      ],
+      "id": "note--375adcfa-6210-4b9b-aa90-288c75166aa2",
+      "spec_version": "2.1",
+      "created": "2023-10-18T20:15:37.803Z",
+      "modified": "2023-10-18T20:15:37.803Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with poshspy:",
+      "content": "Conclusion POSHSPY is an excellent example of the skill and craftiness of APT29.",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "malware--245e7eaf-686d-47d6-bc57-f29d74cd1190",
+        "report--09cfa91e-293d-4ab6-b13d-70ed418188d0"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/poshspy"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html"
+        }
+      ],
+      "id": "note--374e83a8-de63-48b7-8e15-3f652790fb2d",
+      "spec_version": "2.1",
+      "created": "2023-05-22T22:57:23.427Z",
+      "modified": "2023-05-22T22:57:23.427Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with poshspy:",
+      "content": "Mandiant has since identified POSHSPY in several other environments compromised by APT29 over the past two years.",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "malware--245e7eaf-686d-47d6-bc57-f29d74cd1190",
+        "report--09cfa91e-293d-4ab6-b13d-70ed418188d0"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/poshspy"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html"
+        }
+      ],
+      "id": "note--257ac006-092a-4bfc-8f80-4cf454568347",
+      "spec_version": "2.1",
+      "created": "2023-05-22T22:57:22.645Z",
+      "modified": "2023-05-22T22:57:22.645Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with poshspy:",
+      "content": "In the investigations Mandiant has conducted, it appeared that APT29 deployed POSHSPY as a secondary backdoor for use if they lost access to their primary backdoors.",
+      "authors": [
+        "cybergeist.io",
+        "MITRE"
+      ],
+      "object_refs": [
+        "malware--245e7eaf-686d-47d6-bc57-f29d74cd1190",
+        "report--09cfa91e-293d-4ab6-b13d-70ed418188d0"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/poshspy"
+        },
+        {
+          "source_name": "MITRE",
+          "url": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html"
+        }
+      ],
+      "id": "note--9f6960b2-f2bc-4ecd-be50-92d22ceeb1d7",
+      "spec_version": "2.1",
+      "created": "2023-05-22T22:57:17.055Z",
+      "modified": "2023-05-22T22:57:17.055Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with konni:",
+      "content": "Multiple APT groups have been observed exploiting the CVE-2023-38831 vulnerability, including Dark Pink https://securityaffairs.com/143415/apt/dark-pink-apt-south-asia.html APT28 https://securityaffairs.com/147681/apt/apt28-hacked-roundcube-ukraine.html APT29 https://securityaffairs.com/149620/apt/apt29-used-zulip-chat-app.html Sandworm https://securityaffairs.com/153920/apt/russian-sandworm-ot-attacks.html APT40 https://securityaffairs.com/135076/apt/apt40-scanbox-campaign.html Ghostwriter https://securityaffairs.com/129527/apt/ghostwriter-apt-targets-state-entities-of-ukraine-with-cobalt-strike-beacon.html and Konni https://securityaffairs.com/126388/apt/konni-apt-russia-entities.html",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "malware--eb6ef57d-1723-426a-825d-5f898b96d510",
+        "report--993f9497-50aa-431a-9ac8-aa643a820767"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/konni"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/154414/apt/darkcasino-apt-exploiting-winrar-0day.html"
+        }
+      ],
+      "id": "note--3cc92a22-c23a-4d55-b5ce-dd1ad0a20ebd",
+      "spec_version": "2.1",
+      "created": "2023-11-20T11:15:17.718Z",
+      "modified": "2023-11-20T11:15:17.718Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with konni:",
+      "content": "Some of the key actors that are assessed to be leveraging Cloudzy include state-sponsored entities from China (APT10), India (Sidewinder), Iran (APT33 and APT34), North Korea (Kimsuky, Konni, and Lazarus Group), Pakistan (Transparent Tribe), Russia (APT29 and Turla), and Vietnam (OceanLotus) as well as cybercrime entities (Evil Corp and FIN12).",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "malware--eb6ef57d-1723-426a-825d-5f898b96d510",
+        "report--874bbf0b-7676-4642-8ef2-661a3ba1de26"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/konni"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://thehackernews.com/2023/08/iranian-company-cloudzy-accused-of.html"
+        }
+      ],
+      "id": "note--f81e196e-8d8f-49ce-a324-38d6e24aa022",
+      "spec_version": "2.1",
+      "created": "2023-08-02T12:15:57.609Z",
+      "modified": "2023-08-02T12:15:57.609Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with envyscout:",
+      "content": "Rootsaw (aka EnvyScout) is a first-stage payload commonly used by APT29.",
+      "authors": [
+        "cybergeist.io",
+        "InfoSecurity-magazine"
+      ],
+      "object_refs": [
+        "malware--87e09058-9c00-4310-a77c-a85102fc50c7",
+        "report--4b375e6e-1769-4c33-bd41-057b9412016b"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/envyscout"
+        },
+        {
+          "source_name": "InfoSecurity-magazine",
+          "url": "https://www.infosecurity-magazine.com/news/russian-cozy-bear-group-targets/"
+        }
+      ],
+      "id": "note--b2c4e91d-4672-4600-bb5f-e3060ca63ab6",
+      "spec_version": "2.1",
+      "created": "2024-03-25T10:15:13.682Z",
+      "modified": "2024-03-25T10:15:13.682Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with envyscout:",
+      "content": "In particular, Nobelium — also commonly known as APT29 or Cozy Bear — sent phishing emails with the alleged 2023 schedule for the Polish ambassador to the U.S. The emails carried EnvyScout malware, which allows attackers to drop malicious files on a computer, BlackBerry said.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "malware--87e09058-9c00-4310-a77c-a85102fc50c7",
+        "report--7c4dbbb3-3736-4803-af7b-a09fcf1bb675"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/envyscout"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://nationalcybersecurity.com/kremlin-backed-hackers-blamed-in-recent-phishing-attempts-on-eu-agencies-ukscams-datingscams-european-datingscams-love-relationships-scams-pof-match-com-dating/"
+        }
+      ],
+      "id": "note--d13fac05-3a47-4c39-9486-68137b667c8a",
+      "spec_version": "2.1",
+      "created": "2023-10-07T14:15:27.096Z",
+      "modified": "2023-10-07T14:15:27.096Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with envyscout:",
+      "content": "In April, the Polish CERT and Military Counterintelligence Service warned of an APT29 campaign that had used EnvyScout malware to target diplomats associated with NATO and the European Union (see: Russian APT Hackers Actively Targeting European NATO Allieshttps://www.bankinfosecurity.com/russian-apt-hackers-actively-targeting-european-nato-allies-a-21678 ).",
+      "authors": [
+        "cybergeist.io",
+        "BankInfoSecurity"
+      ],
+      "object_refs": [
+        "malware--87e09058-9c00-4310-a77c-a85102fc50c7",
+        "report--9c0328fe-5f54-43ac-ac54-66d89ce724e5"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/envyscout"
+        },
+        {
+          "source_name": "BankInfoSecurity",
+          "url": "https://www.bankinfosecurity.com/russian-hackers-are-pretending-to-be-microsoft-tech-support-a-22735"
+        }
+      ],
+      "id": "note--43725aff-bd54-4900-9f3c-43e1874cd168",
+      "spec_version": "2.1",
+      "created": "2023-08-04T02:15:15.010Z",
+      "modified": "2023-08-04T02:15:15.010Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with envyscout:",
+      "content": "In April, the Polish CERT and Military Counterintelligence Service warned of an APT29 campaign that had used that used EnvyScout malware to target diplomats associated with NATO and the European Union (see: Russian APT Hackers Actively Targeting European NATO Allieshttps://www.bankinfosecurity.com/russian-apt-hackers-actively-targeting-european-nato-allies-a-21678 ).",
+      "authors": [
+        "cybergeist.io",
+        "BankInfoSecurity"
+      ],
+      "object_refs": [
+        "malware--87e09058-9c00-4310-a77c-a85102fc50c7",
+        "report--eedf97b6-76d6-4b76-bc50-513958c4b227"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/envyscout"
+        },
+        {
+          "source_name": "BankInfoSecurity",
+          "url": "https://www.bankinfosecurity.com/european-governments-targeted-in-russian-espionage-campaign-a-22698"
+        }
+      ],
+      "id": "note--a2dcac00-b7e6-4789-aa3e-0dc23fd6ff89",
+      "spec_version": "2.1",
+      "created": "2023-07-31T23:15:15.067Z",
+      "modified": "2023-07-31T23:15:15.067Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with envyscout:",
+      "content": "The staging and deployment of this ZIP file overlaps with the previously employed dropper EnvyScout https://attack.mitre.org/software/S0634/ the use of which is linked to APT29 https://unit42.paloaltonetworks.com/cloaked-ursa-online-storage-services-campaigns/ and NOBELIUM https://www.microsoft.com/en-us/security/blog/2021/05/28/breaking-down-nobeliums-latest-early-stage-toolset/",
+      "authors": [
+        "cybergeist.io",
+        "Recorded Future"
+      ],
+      "object_refs": [
+        "malware--87e09058-9c00-4310-a77c-a85102fc50c7",
+        "report--1c1c13b6-8368-4647-9f95-970ebbb3723c"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/envyscout"
+        },
+        {
+          "source_name": "Recorded Future",
+          "url": "https://www.recordedfuture.com/bluebravo-uses-ambassador-lure-deploy-graphicalneutrino-malware"
+        }
+      ],
+      "id": "note--6caec17f-43a9-4563-a990-fb5e910ada7b",
+      "spec_version": "2.1",
+      "created": "2023-05-22T22:08:12.423Z",
+      "modified": "2023-05-22T22:08:12.423Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with rootsaw:",
+      "content": "While some campaigns delivered ROOTSAW with HTML file attachments, APT29 also used .HTA files that delivered WINELOADER malware, which is a backdoor delivered via phishing emails.",
+      "authors": [
+        "cybergeist.io",
+        "Flashpoint"
+      ],
+      "object_refs": [
+        "malware--d95d5c78-0ccc-452e-af58-59024630b74c",
+        "report--d7de0baa-1b4e-4587-aa85-4fa1c9cee1db"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/rootsaw"
+        },
+        {
+          "source_name": "Flashpoint",
+          "url": "https://flashpoint.io/blog/russian-apt-groups-cyber-threats/"
+        }
+      ],
+      "id": "note--2ba3a864-63b8-4624-bd02-1520df940697",
+      "spec_version": "2.1",
+      "created": "2024-05-23T15:15:25.210Z",
+      "modified": "2024-05-23T15:15:25.210Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with rootsaw:",
+      "content": "State-sponsored groups such as APT29 persistently leverage HTML attachments to phishing emails that execute the JavaScript-based dropper ROOTSAW.",
+      "authors": [
+        "cybergeist.io",
+        "Flashpoint"
+      ],
+      "object_refs": [
+        "malware--d95d5c78-0ccc-452e-af58-59024630b74c",
+        "report--d7de0baa-1b4e-4587-aa85-4fa1c9cee1db"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/rootsaw"
+        },
+        {
+          "source_name": "Flashpoint",
+          "url": "https://flashpoint.io/blog/russian-apt-groups-cyber-threats/"
+        }
+      ],
+      "id": "note--dab192d9-b846-4d6b-b758-27a23f80a62b",
+      "spec_version": "2.1",
+      "created": "2024-05-23T15:15:32.366Z",
+      "modified": "2024-05-23T15:15:32.366Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with rootsaw:",
+      "content": "Threat Group Malware Target(s) APT28 Credomap, Oceanmap, Masepie, Steelhook, Unidentified 114 Poland, Ukraine APT29 ROOTSAW, WINELOADER, Quarterrig, BURNTBATTER, SPICYBEAT, MUSKYBEAT, STATICNOISE Germany, Ukraine APT44 Smokeloader, Rhadamanthys Ukraine, Eastern Europe, Journalists Gamaredon GammaSteel Ukraine Gossamer Bear Spica NATO countries, Ukraine Storm-097 RomCom Europe, North America Turla Capibar, Kazuar Ukraine UAC-0050 Remcos RAT, MeduzaStealer Poland, Ukraine UAC-0149 COOKBOX Ukraine Winter Vivern Aperitif Poland, Ukraine",
+      "authors": [
+        "cybergeist.io",
+        "Flashpoint"
+      ],
+      "object_refs": [
+        "malware--d95d5c78-0ccc-452e-af58-59024630b74c",
+        "report--d7de0baa-1b4e-4587-aa85-4fa1c9cee1db"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/rootsaw"
+        },
+        {
+          "source_name": "Flashpoint",
+          "url": "https://flashpoint.io/blog/russian-apt-groups-cyber-threats/"
+        }
+      ],
+      "id": "note--341c5d5d-5d7d-4ac8-80d0-5971c9eed23d",
+      "spec_version": "2.1",
+      "created": "2024-05-23T15:15:22.369Z",
+      "modified": "2024-05-23T15:15:22.369Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with rootsaw:",
+      "content": "Changing TTPs to meet new objectives Since 2021, APT29 has been known for using a dropper Mandiant calls Rootsaw to deliver malicious HTML attachments through a tactic known as HTML smuggling https://www.scmagazine.com/analysis/amid-heavy-employee-browser-usage-html-smuggling-is-on-the-upswing But as the group’s workload has increased this year, its tactics, techniques, and procedures (TTPs) have evolved.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "malware--d95d5c78-0ccc-452e-af58-59024630b74c",
+        "report--8b4500a6-5e43-4c39-aaed-c35dc41959db"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/rootsaw"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://www.scmagazine.com/news/russias-apt29-intensifies-espionage-operations"
+        }
+      ],
+      "id": "note--7f3babec-cffb-4b0e-9926-a9a8e421ad6a",
+      "spec_version": "2.1",
+      "created": "2023-09-25T17:15:39.795Z",
+      "modified": "2023-09-25T17:15:39.795Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with rootsaw:",
+      "content": "“Rootsaw continues to be the central component of APT29’s initial access efforts to collect foreign political intelligence,” Mandiant continued.",
+      "authors": [
+        "cybergeist.io",
+        "InfoSecurity-magazine"
+      ],
+      "object_refs": [
+        "malware--d95d5c78-0ccc-452e-af58-59024630b74c",
+        "report--4b375e6e-1769-4c33-bd41-057b9412016b"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/rootsaw"
+        },
+        {
+          "source_name": "InfoSecurity-magazine",
+          "url": "https://www.infosecurity-magazine.com/news/russian-cozy-bear-group-targets/"
+        }
+      ],
+      "id": "note--03ea0464-c9fc-4600-8697-52ecfbcb03ab",
+      "spec_version": "2.1",
+      "created": "2024-03-25T10:15:13.277Z",
+      "modified": "2024-03-25T10:15:13.277Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "id": "malware--d2393777-01a0-4a93-a3f4-ac1af4f035c9",
+      "type": "malware",
+      "spec_version": "2.1",
+      "created": "2023-04-26T15:17:13.876Z",
+      "modified": "2024-11-29T14:11:13.354Z",
+      "name": "WellMess",
+      "created_by_ref": "identity--a5544477-52c5-4a15-9bfa-78beefa91c66",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "The WellMess malware, first reported by LAC and JPCERT in mid-2018, is a malicious software that stores the Command and Control (C2) IP addresses it uses in the binary as plaintext URLs. The C2 has limited functionality to relay information between itself, the WellMess backdoor, and presumably a further threat actor-controlled machine. This malware, along with its C2 software, enables threat actors to interact with victims in an offline manner and with a level of abstraction between the threat actor and the malicious software. Interestingly, the implementation details of Seaduke, another malware, share some similarities with WellMess, particularly in their use of encrypted cookies for metadata transfer and obfuscated base64 data in HTTP requests for communication contents.\n\nIn July 2020, the U.S., U.K., and Canadian Governments jointly published an advisory revealing the Russian Foreign Intelligence Service's (SVR) exploitation of Common Vulnerabilities and Exposures (CVEs) to gain initial access to networks. They deployed custom malware known as WellMess, WellMail, and Sorefang to target organizations involved in COVID-19 vaccine development. GRAVITYWELL, the Recorded Future designation for server technology and TLS certificate configuration commonly used to host the SVR-linked WellMess backdoor, exemplifies such transient infrastructure. \n\nWhile there isn't definitive evidence tying WellMess to a specific threat actor, it shares design similarities with a previous tool called Seaduke, used by Blue Kitsune (also known as APT29), to whom the National Cyber Security Centre (NCSC) has publicly attributed WellMess. The operation of the WellMess server as an intermediate C2 aligns with the Seaduke model of using compromised third-party websites or infrastructure to host C2 servers. These act as staging environments to store commands and responses between the threat actor and the backdoor. The inclusion of mutual TLS in HTTPS communications with a self-signed CA ensures secure communication, preventing potential person-in-the-middle attacks on traffic between the server and the WellMess backdoor.",
+      "is_family": true,
+      "malware_types": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "malware--62407b69-6c63-443a-b0a0-8c64d6f169d3",
+      "type": "malware",
+      "spec_version": "2.1",
+      "created": "2023-05-22T22:12:28.384Z",
+      "modified": "2024-11-29T14:21:06.836Z",
+      "name": "ursa",
+      "created_by_ref": "identity--a5544477-52c5-4a15-9bfa-78beefa91c66",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "Ursa is a highly active and motivated malware threat actor, also known as APT28, Fancy Bear, and Sofacy, which has been linked to various high-profile cyberattacks, including the US election interference in 2016 and the NotPetya attacks. The group is known for its use of the HeadLace backdoor malware, which is exclusive to this threat actor. In July 2023, Unit42 reported on Fighting Ursa's phishing scheme targeting diplomats through a used car sale lure, distributing the HeadLace backdoor malware. This tactic aligns with previously documented campaigns by Fighting Ursa and other Russian threat actors.\n\nThe Hyperledger Foundation's Ursa project, unrelated to the malware, involves post-quantum cryptography in the production of open-source software for blockchain. Meanwhile, the Ursa Major company, based in Colorado, focuses on 3D rocket engine printing. Established in Youngstown, Ohio, in 2021 through a $3 million contract from America Makes, Ursa Major's Advanced Manufacturing Lab aims to boost U.S. manufacturing competitiveness through the adoption of additive manufacturing, also known as 3D printing.\n\nIn terms of funding, Ursa Major recently announced that it received an additional $1.2 million from America Makes to transition its additive manufacturing of rocket engine hardware prototypes to production qualification hardware. This follows their earlier work producing thrust chambers for the vacuum variant of their Hadley liquid rocket engine. These developments represent significant advancements in additive manufacturing techniques for solid rocket motor production, positioning Ursa Major at the forefront of this innovative field.\n",
+      "is_family": true,
+      "malware_types": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "malware--f82c2814-fd9d-40e6-b906-d1f1eebb4ed9",
+      "type": "malware",
+      "spec_version": "2.1",
+      "created": "2023-04-26T12:40:24.339Z",
+      "modified": "2024-11-29T14:33:00.581Z",
+      "name": "SUNBURST",
+      "created_by_ref": "identity--a5544477-52c5-4a15-9bfa-78beefa91c66",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "Sunburst is a sophisticated malware that was detected in a major supply chain attack in December 2020. The Sunburst backdoor has been tied to Kazuar, another malicious software, due to code resemblance, indicating its high level of complexity. This malware infiltrates systems, often without the user's knowledge, via suspicious downloads, emails, or websites, and can steal personal information, disrupt operations, or hold data for ransom. Prominent campaigns such as DarkHydrus, OilRig, xHunt, SUNBURST, and Decoy Dog have leveraged DNS tunneling for command and control (C2), highlighting the shared techniques across these threats.\n\nThe discovery of the Sunburst malware led to significant challenges for many organizations, including governments around the world. Following the disclosure of IP addresses associated with the Sunburst attackers, organizations had to painstakingly sift through historical data to identify impacted services and any potential interactions with the malware. In July 2024, US District Judge Paul Engelmayer dismissed most of the charges against SolarWinds and Brown, stating that the Securities and Exchange Commission's (SEC) claims that they concealed the firm’s security weaknesses post-Sunburst were based on \"hindsight and speculation.”\n\nPartners, including in the US, have associated Nobelium, the group behind Sunburst, with APT29, which was also implicated in the 2015 attack against the American Democratic National Committee and the 2020 Sunburst attack targeting SolarWinds products. Following the Sunburst supply chain attack, the Biden administration took measures to bolster the nation’s cybersecurity. Chris DeRusha, federal CISO and deputy national cyber director, and Eric Goldstein, executive assistant director for cybersecurity at CISA, cited Executive Order 14028, which led to these initiatives aimed at ensuring secure development and bolstering government cybersecurity.\n",
+      "is_family": true,
+      "malware_types": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "malware--245e7eaf-686d-47d6-bc57-f29d74cd1190",
+      "type": "malware",
+      "spec_version": "2.1",
+      "created": "2023-04-26T12:46:08.597Z",
+      "modified": "2024-11-29T14:03:57.051Z",
+      "name": "POSHSPY",
+      "created_by_ref": "identity--a5544477-52c5-4a15-9bfa-78beefa91c66",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "Poshspy is a sophisticated malware used by APT29, an advanced persistent threat group known for deploying stealthy backdoors. It leverages built-in Windows features such as PowerShell and Windows Management Instrumentation (WMI) to infiltrate systems. The malware was designed to store and persist the backdoor code using WMI, rendering it invisible to those unfamiliar with this technology. Poshspy's design allows it to download and execute additional PowerShell code and Windows binaries, making it a potent tool in the hands of its operators.\n\nThe cybersecurity firm Mandiant first identified an early variant of the Poshspy backdoor during an incident response engagement in 2015. The backdoor was deployed as PowerShell scripts, showcasing its ability to blend into the system environment seamlessly. Over the subsequent years, Mandiant discovered Poshspy in several other environments compromised by APT29, confirming the malware's widespread use and effectiveness.\n\nIn the operations conducted by APT29, Poshspy was often deployed as a secondary or failover backdoor. If the primary backdoors were detected and neutralized, Poshspy would maintain the attackers' access to the compromised systems. Its efficient and covert nature, coupled with its resilience and persistence mechanisms, make Poshspy an exemplary representation of the skill and craftiness of APT29.",
+      "is_family": true,
+      "malware_types": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "malware--eb6ef57d-1723-426a-825d-5f898b96d510",
+      "type": "malware",
+      "spec_version": "2.1",
+      "created": "2023-04-26T15:17:13.876Z",
+      "modified": "2024-11-29T14:46:23.484Z",
+      "name": "KONNI",
+      "created_by_ref": "identity--a5544477-52c5-4a15-9bfa-78beefa91c66",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "Konni is a malicious software (malware) linked to North Korea, specifically associated with the state-sponsored Kimsuky group. This advanced persistent threat (APT) has been active since at least 2021, focusing on high-profile targets such as the Russian Ministry of Foreign Affairs, the Russian Embassy in Indonesia, and various South Korean enterprises. The malware typically infects systems through suspicious downloads, emails, or websites, often without the user's knowledge, and once inside, it can steal personal information, disrupt operations, or even hold data hostage for ransom.\n\nThe Konni APT utilizes Russian-language weaponized documents as part of its attack strategy, according to multiple reports from Security Affairs. This method of attack is particularly insidious as it uses legitimate-seeming documents to trick users into granting the malware access to their systems. These documents are often disguised as important communications or files, luring unsuspecting victims into opening them and inadvertently initiating the malware infection process.\n\nRecently, the cyberespionage activities of the Konni group have escalated, targeting Russia and South Korea more aggressively, as reported by the South Korean cybersecurity firm Genians. This increase in attacks coincides with a general rise in cyber threats globally, including those in Mexico, business email compromise scams warned by the FBI, and various breaches disclosed by Avis, Slim CD, Medicare, and Fortinet. It underscores the importance of robust cybersecurity measures to protect against such sophisticated threats.\n",
+      "is_family": true,
+      "malware_types": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "malware--87e09058-9c00-4310-a77c-a85102fc50c7",
+      "type": "malware",
+      "spec_version": "2.1",
+      "created": "2023-04-26T15:17:13.876Z",
+      "modified": "2024-11-29T13:51:16.687Z",
+      "name": "EnvyScout",
+      "created_by_ref": "identity--a5544477-52c5-4a15-9bfa-78beefa91c66",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "EnvyScout is a sophisticated malware used primarily by the threat actor group NOBELIUM, also known as APT29 or Cozy Bear. This malware, tracked by Microsoft and alternatively referred to as Rootsaw, is delivered via spear-phishing emails, often disguised with seemingly harmless attachments such as the NV.html file. Once opened, EnvyScout acts as a malicious dropper, de-obfuscating and writing a harmful ISO file to disk. It contains a payload stored as an encoded blob, which can further infect the target's system. The malware has been seen to drop downloaders like SNOWYAMBER and QUARTERRIG, which deliver additional payloads including the HALFRIG tool.\n\nIn April, the Polish CERT and Military Counterintelligence Service issued a warning about an APT29 campaign that leveraged EnvyScout to target diplomats associated with NATO and the European Union. Notably, one of the phishing campaigns involved sending emails with the alleged 2023 schedule for the Polish ambassador to the U.S., carrying the EnvyScout malware. When the recipient opens the attached NV.img file (dropped by EnvyScout), it triggers the default behavior on Windows 10 to mount the ISO image at the next available drive letter, leading to system infection.\n\nThe operation of EnvyScout involves several technical nuances. In some instances, the malware was observed to enumerate the executing browser’s environment, using the user-agent to determine whether a Windows machine received an ISO payload. In other iterations, EnvyScout contained execution guardrails wherein window.location.pathname was called, and its values were leveraged to ensure specific entries in the array of characters returned. The final component of EnvyScout is a short code snippet responsible for decoding the ISO in the Base64 encoded/XOR’d blob, and saving it to disk as NV.img with a mime type of “application/octet-stream”. This illustrates the complexity and adaptability of this malicious software.\n",
+      "is_family": true,
+      "malware_types": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "malware--d95d5c78-0ccc-452e-af58-59024630b74c",
+      "type": "malware",
+      "spec_version": "2.1",
+      "created": "2024-03-25T10:15:12.944Z",
+      "modified": "2024-11-29T13:59:27.183Z",
+      "name": "rootsaw",
+      "created_by_ref": "identity--a5544477-52c5-4a15-9bfa-78beefa91c66",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "Rootsaw, also known as EnvyScout, is a first-stage payload malware extensively used by state-sponsored group APT29 for their initial access efforts in collecting foreign political intelligence. The malware is typically deployed via phishing emails with HTML file attachments or .HTA files, which execute the JavaScript-based dropper Rootsaw. In some instances, Rootsaw has been delivered alongside WINELOADER malware, a backdoor that is also transmitted through phishing emails. These phishing campaigns have primarily targeted Germany and Ukraine, among other locations.\n\nSince 2021, APT29 has evolved its tactics, techniques, and procedures (TTPs) to meet new objectives. Traditionally, Rootsaw was delivered as a zip file attachment disguised as a malware dropper. However, recent changes have seen Rootsaw contained within a PDF document for the first time. This adaptation suggests an increase in the group's workload and a shift in their strategies to maintain effectiveness. One such tactic includes HTML smuggling, a method of delivering malicious HTML attachments that has seen a significant upswing amid heavy employee browser usage.\n\nIn one particular instance, a ZIP file containing the ROOTSAW dropper was used to deploy a second-stage lure document themed around the CDU, along with a WINELOADER payload retrieved from a specific URL. Victims were directed to a malicious ZIP file containing a \"Rootsaw\" dropper hosted on an actor-controlled compromised website. Despite these changes in delivery methods, Rootsaw remains the central component of APT29's initial access efforts, demonstrating its persistent threat to cybersecurity.\n",
+      "is_family": true,
+      "malware_types": [
+        "unknown"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with cve-2023-38831:",
+      "content": "An elaborate attack on numerous European diplomatic and government entities, international organizations, and internet service providers, perpetrated by the Russia-affiliated APT29 group (AKA Cozy Bear) has been unveiled https://www.rnbo.gov.ua/files/2023_YEAR/CYBERCENTER/november/APT29%20attacks%20Embassies%20using%20CVE-2023-38831%20-%20report%20en.pdf The group launched a sophisticated phishing campaign to gain initial access and leveraged newly found WinRAR vulnerability CVE-2023-38831 to execute arbitrary code.",
+      "authors": [
+        "cybergeist.io",
+        "Checkpoint"
+      ],
+      "object_refs": [
+        "vulnerability--fed555a8-85eb-4791-88b2-3d174bd98ea4",
+        "report--4af800ed-d58f-46a0-876f-848532ae121a"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cve-2023-38831"
+        },
+        {
+          "source_name": "Checkpoint",
+          "url": "https://research.checkpoint.com/2023/20th-november-threat-intelligence-report/"
+        }
+      ],
+      "id": "note--ee3f6cc9-4cff-4a72-ac7b-2a5cfc10949b",
+      "spec_version": "2.1",
+      "created": "2023-11-20T18:16:37.903Z",
+      "modified": "2023-11-20T18:16:37.903Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with cve-2023-38831:",
+      "content": "The Ukrainian National Security and Defense Council (NDSC) reported that APT29 (aka SVR group, Cozy Bear, Nobelium, Midnight Blizzard, and The Dukes) has been exploiting the CVE-2023-38831 vulnerability in WinRAR in recent attacks.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "vulnerability--fed555a8-85eb-4791-88b2-3d174bd98ea4",
+        "report--d7d1d26c-cbdc-4d80-b14d-78d165bf5520"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cve-2023-38831"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://www.itsecuritynews.info/russia-linked-apt29-group-exploited-winrar-0day-in-attacks-against-embassies/"
+        }
+      ],
+      "id": "note--f3de2fe9-1291-4c23-b078-68181595ddd4",
+      "spec_version": "2.1",
+      "created": "2023-11-20T18:16:11.410Z",
+      "modified": "2023-11-20T18:16:11.410Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with cve-2023-38831:",
+      "content": "2023-11-20 15:11 Russia-linked cyberespionage group APT29 has been observed leveraging the CVE-2023-38831 vulnerability in WinRAR in recent attacks.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "vulnerability--fed555a8-85eb-4791-88b2-3d174bd98ea4",
+        "report--d7d1d26c-cbdc-4d80-b14d-78d165bf5520"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cve-2023-38831"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://www.itsecuritynews.info/russia-linked-apt29-group-exploited-winrar-0day-in-attacks-against-embassies/"
+        }
+      ],
+      "id": "note--3866b36a-94f7-449d-b309-940129288fd1",
+      "spec_version": "2.1",
+      "created": "2023-11-20T18:16:11.008Z",
+      "modified": "2023-11-20T18:16:11.008Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with cve-2023-38831:",
+      "content": "The Ukrainian National Security and Defense Council (NDSC) reported that APT29 https://securityaffairs.com/149620/apt/apt29-used-zulip-chat-app.html (aka SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html ) has been exploiting the CVE-2023-38831 https://securityaffairs.com/152669/apt/apt-groups-winrar-flaw.html vulnerability in WinRAR in recent attacks.",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "vulnerability--fed555a8-85eb-4791-88b2-3d174bd98ea4",
+        "report--0674a9ce-352a-4cea-be4e-0b7835dd0ab3"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cve-2023-38831"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/154460/apt/apt29-targets-embassies-winrar-flaw.html"
+        }
+      ],
+      "id": "note--420ea12c-0956-4e99-b7a8-c8761cb1918c",
+      "spec_version": "2.1",
+      "created": "2023-11-20T16:15:12.829Z",
+      "modified": "2023-11-20T16:15:12.829Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with cve-2023-38831:",
+      "content": "Russia-linked cyberespionage group APT29 has been observed leveraging the CVE-2023-38831 vulnerability in WinRAR in recent attacks.",
+      "authors": [
+        "cybergeist.io",
+        "Securityaffairs"
+      ],
+      "object_refs": [
+        "vulnerability--fed555a8-85eb-4791-88b2-3d174bd98ea4",
+        "report--0674a9ce-352a-4cea-be4e-0b7835dd0ab3"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cve-2023-38831"
+        },
+        {
+          "source_name": "Securityaffairs",
+          "url": "https://securityaffairs.com/154460/apt/apt29-targets-embassies-winrar-flaw.html"
+        }
+      ],
+      "id": "note--687fa11a-17f1-4a9c-a176-6932cf4d3b43",
+      "spec_version": "2.1",
+      "created": "2023-11-20T16:15:12.520Z",
+      "modified": "2023-11-20T16:15:12.520Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with cve-2023-42793:",
+      "content": "However, the developer recommends customers patch the flaws as soon as possible, given that several nation-state threat actors, including Russian APT29 https://www.cybersecurity-help.cz/blog/3681.html and North Korean Lazarus and Andariel https://www.microsoft.com/en-us/security/blog/2023/10/18/multiple-north-korean-threat-actors-exploiting-the-teamcity-cve-2023-42793-vulnerability/ as well as ransomware gangs https://www.cybersecurity-help.cz/blog/3531.html have been seen abusing TeamCity bugs in the past.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "vulnerability--fd86b067-a61f-402c-b294-20f59f668fca",
+        "report--d93de1c2-999d-4b03-b083-c3e990335cc9"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cve-2023-42793"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://www.cybersecurity-help.cz/blog/3841.html"
+        }
+      ],
+      "id": "note--119f428b-98b8-40cf-b5e2-c5a913ccceb9",
+      "spec_version": "2.1",
+      "created": "2024-03-05T14:16:54.639Z",
+      "modified": "2024-03-05T14:16:54.639Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with cve-2023-42793:",
+      "content": "Customers are recommended to apply fixes as soon as possible, given that several nation-state threat actors, including Russian APT29 https://www.cybersecurity-help.cz/blog/3681.html and North Korean Lazarus and Andariel https://www.microsoft.com/en-us/security/blog/2023/10/18/multiple-north-korean-threat-actors-exploiting-the-teamcity-cve-2023-42793-vulnerability/ as well as ransomware gangs https://www.cybersecurity-help.cz/blog/3531.html have been seen abusing TeamCity bugs in the past.",
+      "authors": [
+        "cybergeist.io",
+        "CERT-EU"
+      ],
+      "object_refs": [
+        "vulnerability--fd86b067-a61f-402c-b294-20f59f668fca",
+        "report--4fb6886f-09cf-40e2-be1f-4ea292ff708e"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cve-2023-42793"
+        },
+        {
+          "source_name": "CERT-EU",
+          "url": "https://www.cybersecurity-help.cz/blog/3849.html"
+        }
+      ],
+      "id": "note--cd4ef683-fb24-4b91-9a01-21af8e0d4055",
+      "spec_version": "2.1",
+      "created": "2024-03-07T16:15:38.097Z",
+      "modified": "2024-03-07T16:15:38.097Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "note",
+      "abstract": "Association evidence for why the Threat Actor apt29 is associated with cve-2023-42793:",
+      "content": "Flurry of APTs Target Developers Through CVE-2023-42793 APT29 is not the only state-sponsored cyberthreat to take notice of the tantalizing prizes on offer in vulnerable TeamCity instances.",
+      "authors": [
+        "cybergeist.io",
+        "DARKReading"
+      ],
+      "object_refs": [
+        "vulnerability--fd86b067-a61f-402c-b294-20f59f668fca",
+        "report--628d5462-6ae5-470a-ae86-71f8314562f2"
+      ],
+      "external_references": [
+        {
+          "source_name": "cybergeist.io Public",
+          "url": "https://cybergeist.io/profile/cve-2023-42793"
+        },
+        {
+          "source_name": "DARKReading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/global-teamcity-exploitation-opens-door-to-solarwinds-style-nightmare"
+        }
+      ],
+      "id": "note--ba6353e1-650d-4c9e-a026-36c51fe4948d",
+      "spec_version": "2.1",
+      "created": "2023-12-20T11:33:35.898Z",
+      "modified": "2023-12-20T11:33:35.898Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ]
+    },
+    {
+      "type": "vulnerability",
+      "id": "vulnerability--fed555a8-85eb-4791-88b2-3d174bd98ea4",
+      "spec_version": "2.1",
+      "created": "2023-08-23T19:15:22.135Z",
+      "modified": "2024-11-29T14:43:53.998Z",
+      "name": "CVE-2023-38831",
+      "created_by_ref": "identity--a5544477-52c5-4a15-9bfa-78beefa91c66",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "CVE-2023-38831 is a critical vulnerability identified in the WinRAR software, with a CVSS score of 7.8, indicating high severity. This flaw in software design or implementation has been exploited to disseminate the LONEPAGE malware through ZIP files using an exploit known as UAC-0099. The vulnerability was first actively exploited mid-2022, primarily targeting Ukrainian entities. Cybersecurity researchers have noted that this zero-day vulnerability in the popular WinRAR compression tool has also been used to target traders on specialized forums.\n\nThe DarkCasino threat actor group, identified by cybersecurity firm NSFOCUS, has been observed leveraging this vulnerability in attacks targeting cryptocurrency trading platforms, online casinos, and network banks worldwide. The attackers use lure documents containing malicious content that exploits the WinRAR RCE flaw, granting them access to compromised systems. In addition to HTA attachments, two other infection methods have been identified: self-extracting (SFX) archives and booby-trapped ZIP files, both exploiting the WinRAR vulnerability to distribute LONEPAGE malware.\n\nAPT29, also known as BlueBravo, Cloaked Ursa, Cozy Bear, Iron Hemlock, Midnight Blizzard, and The Dukes, has also been linked to the exploitation of CVE-2023-38831. The group uses benign-looking lures, such as offers for BMWs for sale, to exploit the vulnerability and gain access to systems. In recent months, the group has been connected to attacks on various organizations in France and Ukraine, using the WinRAR flaw to steal browser login data via a PowerShell script named IRONJAW.\n"
+    },
+    {
+      "type": "vulnerability",
+      "id": "vulnerability--fd86b067-a61f-402c-b294-20f59f668fca",
+      "spec_version": "2.1",
+      "created": "2023-09-25T12:15:37.567Z",
+      "modified": "2024-11-29T13:40:42.296Z",
+      "name": "cve-2023-42793",
+      "created_by_ref": "identity--a5544477-52c5-4a15-9bfa-78beefa91c66",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "CVE-2023-42793 is a critical security vulnerability identified in JetBrains TeamCity build management and continuous integration server. This flaw, characterized by an authentication bypass, was exploited by multiple threat actors throughout 2023 and into 2024. The first notable exploitation occurred in September 2023, with the threat group BianLian capitalizing on this vulnerability to conduct a supply chain attack. In addition to BianLian, Microsoft reported two North Korean threat groups, known as Diamond Sleet (or Zinc) and Onyx Sleet (or Plutonium), exploiting this remote code execution vulnerability.\n\nThe North Korea-backed hacking groups Lazarus (Diamond Sleet) and Andariel (Onyx Sleet) have been particularly active in exploiting CVE-2023-42793. Microsoft outlined in October 2023 how these groups used this critical authentication bypass vulnerability in the JetBrains TeamCity server to breach target systems. By establishing persistent access to compromised hosts, they were able to use them as a beachhead for more widespread compromise of companies' systems and networks.\n\nIn their attacks, these threat groups have also employed a custom proxy tool called HazyLoad, previously identified by Microsoft as part of intrusions weaponizing critical security flaws in JetBrains TeamCity. Specifically, Diamond Sleet was implicated last month in exploiting CVE-2023-42793, which has a high CVSS score of 9.8, to opportunistically breach vulnerable servers and deploy a backdoor known as ForestTiger. These incidents underscore the severity of the vulnerability and the need for organizations to apply patches promptly to protect their systems.\n"
+    },
+    {
+      "type": "report",
+      "id": "report--d2743aa4-1a61-486b-9455-a069e9db9a02",
+      "spec_version": "2.1",
+      "created": "2024-10-30T20:01:27.840Z",
+      "modified": "2024-11-06T00:01:38.431Z",
+      "name": "Russia-linked Midnight Blizzard APT targeted 100+ organizations with a spear-phishing campaign using RDP files",
+      "report_types": [
+        "threat-report"
+      ],
+      "published": "2024-10-30T19:20:51.000Z",
+      "external_references": [
+        {
+          "url": "https://securityaffairs.com/170398/apt/midnight-blizzard-apt-targeted-100-organizations.html",
+          "source_name": "Securityaffairs"
+        },
+        {
+          "url": "https://securityaffairs.com/",
+          "source_name": "Securityaffairs RSS feed"
+        }
+      ],
+      "object_refs": [
+        "threat-actor--04147f1f-1c1a-450d-a4e6-2902bf821355"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "![](https://i0.wp.com/securityaffairs.com/wp-content/uploads/2016/12/Consular-Department-of-the-Embassy-of-the-Russian-Federation.jpg?fit=692%2C519&ssl=1)\n\n## Microsoft warns of a new phishing campaign by Russia-linked APT Midnight Blizzard targeting hundreds of organizations.\n\nMicrosoft warns of a large-scale spear-phishing campaign by Russia-linked APT [Midnight Blizzard](https://securityaffairs.com/165038/hacking/midnight-blizzard-email-microsoft-customers.html) (aka [APT29](https://securityaffairs.com/160975/apt/russia-apt29-german-political-parties-wineloader.html), [SVR group](https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html), [BlueBravo](https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html), [Cozy Bear](https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html), [Nobelium](https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html), [Midnight Blizzard](https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html), and [The Dukes](https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html)), targeting 1,000+ users across 100+ organizations for intelligence gathering.\n\nThe [Midnight Blizzard](https://securityaffairs.com/155846/apt/apt29-targeting-jetbrains-teamcity-servers.html) group along with [APT28](https://securityaffairs.co/wordpress/78085/malware/apt28-lojax-variant.html) cyber espionage group was involved in the [Democratic National Committee hack](https://securityaffairs.co/wordpress/49705/hacking/dnc-hack.html) and the wave of attacks aimed at the [2016 US Presidential Elections](https://securityaffairs.co/wordpress/74434/hacking/russian-intelligence-indictment.html). The group is known for the [SolarWinds ](https://securityaffairs.com/112416/hacking/microsoft-breached-solarwinds-hack.html)supply chain attack that in 2020 hit more than 18,000 customer organizations, including Microsoft. \n\nThe recent campaign is still ongoing and already targeted entities in multiple sectors, including government, defense, academia, NGO, and other sectors. \n\nThe victims are in the United Kingdom, European countries, Australia and Japan. \n\n_“On October 22, 2024, Microsoft identified a spear-phishing campaign in which Midnight Blizzard sent phishing emails to thousands of users in over 100 organizations. The emails were highly targeted, using social engineering lures relating to Microsoft, Amazon Web Services (AWS), and the concept of Zero Trust.” reads the [**report**](https://www.microsoft.com/en-us/security/blog/2024/10/29/midnight-blizzard-conducts-large-scale-spear-phishing-campaign-using-rdp-files/) published by Microsoft. “The emails contained a Remote Desktop Protocol (RDP) configuration file signed with a LetsEncrypt certificate. RDP configuration (.RDP) files summarize automatic settings and resource mappings that are established when a successful connection to an RDP server occurs. These configurations extend features and resources of the local system to a remote server, controlled by the actor.”_\n\nMicrosoft experts pointed out that the use of a signed RDP configuration file to gain access to the targets’ devices is a novelty in the TTPs associated with this threat actor.\n\n[![Midnight Blizzard](https://i0.wp.com/securityaffairs.com/wp-content/uploads/2024/10/image-32.png?resize=572%2C532&ssl=1)](https://i0.wp.com/securityaffairs.com/wp-content/uploads/2024/10/image-32.png?ssl=1)\n\n[Government Computer Emergency Response Team of Ukraine](https://cert.gov.ua/article/6281076) (CERT-UA) and [Amazon](https://aws.amazon.com/blogs/security/amazon-identified-internet-domains-abused-by-apt29/) also warned about this campaign. \n\nThe used of RDP configuration files in the attack auto-extend local system resources to the attacker’s server, exposing sensitive data like hard drives, clipboard contents, printers, and authentication features, including smart cards, to the threat actor’s server.\n\n“Midnight Blizzard sent the phishing emails in this campaign using email addresses belonging to legitimate organizations that were gathered during previous compromises.” concludes the report that provides IOC for this campaign along with mitigations.\n\nFollow me on Twitter: [**@securityaffairs**](https://twitter.com/securityaffairs) and [**Facebook**](https://www.facebook.com/sec.affairs) and [**Mastodon**](https://infosec.exchange/@securityaffairs)\n\n[**Pierluigi Paganini**](http://www.linkedin.com/pub/pierluigi-paganini/b/742/559)\n\n**(**[**SecurityAffairs**](http://securityaffairs.co/wordpress/) **–** **hacking, Midnight Blizzard)**\n\n---\n\n---",
+      "created_by_ref": "identity--636525d0-b596-46f4-9ca3-8f1c717eeb21"
+    },
+    {
+      "type": "report",
+      "id": "report--cc5c227e-1c92-4398-842c-44a0b61c580a",
+      "spec_version": "2.1",
+      "created": "2024-11-15T15:33:57.334Z",
+      "modified": "2024-11-15T15:58:06.712Z",
+      "name": "CrowdStrike Spends to Boost Identity Threat Detection",
+      "report_types": [
+        "threat-report"
+      ],
+      "published": "2024-11-12T19:46:24.000Z",
+      "external_references": [
+        {
+          "url": "https://www.darkreading.com/identity-access-management-security/crowdstrike-spends-boost-identity-threat-detection",
+          "source_name": "DARKReading"
+        },
+        {
+          "url": "https://www.darkreading.com/about-us",
+          "source_name": "DARKReading RSS feed"
+        }
+      ],
+      "object_refs": [
+        "threat-actor--04147f1f-1c1a-450d-a4e6-2902bf821355"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "![Silhouettes of people standing next to padlocks in a circle.](https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt7ea610a15c2e225b/6706fbc3dd85ad377e33a095/identity-ArtemisDiana-alamy.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale \"Silhouettes of people standing next to padlocks in a circle.\")\n\nSource: Artemis Diana via Alamy Stock Photo\n\nCrowdStrike's spending spree for security posture management capabilities continued with a deal to buy Adaptive Shield, an Israeli startup that specializes in securing organizations' software-as-a-service (SaaS) ecosystems and protecting against [identity-based attacks](https://www.darkreading.com/identity-access-management-security/even-orgs-with-sso-are-vulnerable-to-identity-based-attacks).\n\nLast week's deal calls for CrowdStrike to pay cash and stock for Adaptive Shield; CrowdStrike expects to complete the transaction by the end of January 2025\\. Press reports estimate the value of the deal at [around $300 million](https://www.calcalistech.com/ctechnews/article/s1zuniozkx).\n\nFounded in 2019, Adaptive Shield is one of many companies in the SaaS security posture management (SSPM) sector. Others include AppOmni, DoControl, Obsidian, and Reco. \n\nAdaptive Shield's platform supports more than 150 SaaS applications, including Adobe, Google Workspace, Microsoft 365, Salesforce, Slack, and Zoom. It monitors for misconfigurations and identity threats and offers a no-code tool, called Integration Builder, for custom SaaS applications.\n\n## Competitive Impact?\n\nOmdia senior principal analyst Rik Turner wonders whether the deal will prompt CrowdStrike's competitors, such as Cisco, Palo Alto Networks, and SentinelOne, to follow suit with their own deals. Overall, it has been an active time for the acquisitions of cloud and data security posture management (DSPM) startups, he notes. \n\nAdaptive Shield is CrowdStrike's third acquisition of a security posture management provider in the past 18 months. In October 2023, it bought Bionic, an early provider of application security posture management (ASPM), extending security risk visibility from code development to cloud deployment. And earlier this year, [CrowdStrike bought Flow Security](https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-flow-security-and-expand-cloud-security-leadership-with-dspm/), another DSPM cloud platform that protects data at rest and in motion.\n\n\"In contrast, there has been no such buying frenzy with SSPMs. CrowdStrike's acquisition of Adaptive Shield is the first deal of this kind, raising the question of whether it might start a trend among the purchaser’s competitors,\" Turner noted [in a recent report](https://omdia.tech.informa.com/om124788/crowdstrike-enters-sspm-with-adaptive-shield-buy).\n\nCrowdStrike emphasizes that the addition of Adaptive Shield will boost the capability of its Falcon platform to protect organizations against identity-based attacks by adding SaaS applications to the mix. \n\nOnce integrated into Falcon, Adaptive Shield's SSPM platform will give organizations visibility into misconfigurations, unnecessary or rogue privileges, and activities undertaken among accounts of on-premises and cloud identity providers, as well as SaaS security applications. The addition \"provides organizations with granular visibility into their growing cloud environments, enables them to manage and secure their SaaS security posture and their human and non-human identities, and helps them detect and prevent identity-centric, cloud-focused cyberattacks,\" CrowdStrike president Michael Sentonas explained in [a blog post](https://www.crowdstrike.com/en-us/blog/crowdstrike-acquires-adaptive-shield-and-integrates-saas-protection/).\n\nRyan Terry, CrowdStrike's senior product manager for identity, buttressed that message at a company meeting last week in Amsterdam.\n\n\"Our vision is to unify identity protection across the entire Falcon security platform that includes cloud security,\" he said. \"That will bring ISMG \\[identity security posture management\\], CIEM \\[cloud infrastructure entitlement management\\], and ITDR \\[identity threat detection and response\\] together in an integrated way, in one single platform to help you address today's modern identity challenges.\"\n\n## Keying In on Identity\n\nSaaS connectors will improve visibility into threat activity and precursors to identity-based attacks, says Forrester Research principal analyst Andras Cser. Adding SSPM to CrowdStrike Falcon will fill a gap in the platform's identity protection module, he says.\n\n\"Identity-wise, CrowdStrike claims they have ITDR, but in reality, it's mainly cloud infrastructure entitlement management, addressing how admins have access to policies that drive privileges on things like \\[AWS\\] S3 buckets and Azure Blobs and things like that,\" Cser says. \"It's not true \\[identity and access management\\] in the sense of user account provisioning/deprovisioning, federation, token service, and all these other types of things.\"\n\nThe Adaptive Shield SSPM and ITDR platform promises to provide a broad range of protection against such attacks by providing unified, hybrid identity management for SaaS-based apps and on-premises authentication, notably Microsoft's Active Directory.\n\nAdaptive Shield's platform also continuously monitors generative AI-based SaaS applications for configuration shifts and enforces security standards and privileges. It's also designed to prevent data exfiltration and discover unauthorized AI applications.\n\n\"Beyond identities, it also provides visibility into misconfigurations and other risks affecting SaaS applications, so organizations can better manage these issues and detect and respond to threats,\" Sentonas explained.\n\n## Identity-Based Attacks Continue to Mount\n\nVendor focus on identity isn't happening in a vacuum. Threat actors have actively exploited identity through various techniques, including password spraying, phishing, stealing legitimate credentials, and exploiting misconfigurations. For example, after managing to get global administrator rights to MGM Resorts' Azure instances last year, [Scattered Spider](https://www.darkreading.com/remote-workforce/scattered-spider-pivots-saas-application-attacks) was able to exfiltrate data and disrupt its operations. Earlier this year, Microsoft [was among the victims](https://www.darkreading.com/threat-intelligence/microsoft-falls-victim-russian-midnight-blizzard-cyberattack) of a password spray attack by Russia-based [Midnight Blizzard](https://www.darkreading.com/cyberattacks-data-breaches/cisa-emergency-directive-after-midnight-blizzard-microsoft-hits) (also known as Cozy Bear and APT29), compromising its corporate email systems. Overall, CrowdStrike says that 80% of breaches now have an identity component. \n\nAt the RSA Conference earlier in the year, Sentonas and CrowdStrike co-founder and CEO George Kurtz [demonstrated how hackers](https://www.rsaconference.com/library/presentation/usa/2024/hacking%20exposed%20nextgeneration%20tactics%20techniques%20and%20procedures) exploit identity provider misconfigurations with phishable authentication factors to gain access to highly privileged accounts.\n\n\"They move laterally once they're inside an organization to achieve their outcome,\" Sentonas said.\n\n## More Identity Features in the Wings\n\nRoss Penny, a principal technical strategist for CrowdStrike, said the company plans to roll out several tools to bolster CrowdStrike Falcon Identity by February. Among recent and current deliverables include integration with AWS Identity Center, which reports on the \"full picture\" of risks associated with federated AWS accounts. \n\n\"If you're only looking within AWS because it's federated, you lack a lot of information about it,\" Penny explained. \"The fact that we know where that account lives and originates means you have a much wider variety of risk that you're able to use to calculate those access decisions and detections.\"\n\nCrowdStrike is also readying a policy management API that can be integrated into external workflows, Penny said. CrowdStrike developed this API because many of its customers also use ServiceNow.\n\nEarly next year, CrowdStrike will extend integration with other identity providers, including Okta Universal Directory, Google Workspace, and AWS permission usage analysis. CrowdStrike also plans to add attack path detection across those multiple identity providers in 2025.\n\nDon't miss the upcoming free [Dark Reading Virtual Event](https://ve.informaengage.com/virtual-events/know-your-enemy-understanding-cybercriminals-and-nation-state-threat-actors/?ch=drevntpg), \"Know Your Enemy: Understanding Cybercriminals and Nation-State Threat Actors,\" Nov. 14 at 11 am ET. Don't miss sessions on understanding MITRE ATT&CK, using proactive security as a weapon, and a masterclass in incident response; and a host of top speakers like Larry Larsen from the Navy Credit Federal Union, former Kaspersky Lab analyst Costin Raiu, Ben Read of Mandiant Intelligence, Rob Lee from SANS, Dr. Max Smeets from ETH Zurich, and Elvia Finalle from Omdia. [Register now!](https://ve.informaengage.com/virtual-events/know-your-enemy-understanding-cybercriminals-and-nation-state-threat-actors/?ch=drevntpg)\n\n## About the Author\n\n[![Jeffrey Schwartz, Contributing Writer](https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte815fe009d8ac172/64f1536fc3efae477df0ee60/Jeff_Schwartz_headshot-sq.png?width=400&auto=webp&quality=80&disable=upscale \"Jeffrey Schwartz, Contributing Writer\")](https://www.darkreading.com/author/jeffrey-schwartz)\n\nJeffrey Schwartz is a journalist who has covered information security and all forms of business and enterprise IT, including client computing, data center and cloud infrastructure, and application development for more than 30 years. Jeff is a regular contributor to Channel Futures. Previously, he was editor-in-chief of Redmond magazine and contributed to its sister titles Redmond Channel Partner, Application Development Trends, and Virtualization Review. Earlier, he held editorial roles with CommunicationsWeek, InternetWeek, and VARBusiness. Jeff is based in the New York City suburb of Long Island.",
+      "created_by_ref": "identity--8445c85e-857c-4e64-af53-f06bb7aca7aa"
+    },
+    {
+      "type": "report",
+      "id": "report--466b982a-53d8-4b2b-8863-ae250f557124",
+      "spec_version": "2.1",
+      "created": "2024-11-01T22:01:29.529Z",
+      "modified": "2024-11-15T14:42:23.654Z",
+      "name": "Foreign Threat Actor Conducting Large-Scale Spear-Phishing Campaign with RDP Attachments | CISA",
+      "report_types": [
+        "threat-report"
+      ],
+      "published": "2024-10-31T12:00:00.000Z",
+      "external_references": [
+        {
+          "url": "https://www.cisa.gov/news-events/alerts/2024/10/31/foreign-threat-actor-conducting-large-scale-spear-phishing-campaign-rdp-attachments",
+          "source_name": "CISA"
+        },
+        {
+          "url": "https://www.cisa.gov/",
+          "source_name": "CISA RSS feed"
+        }
+      ],
+      "object_refs": [
+        "threat-actor--04147f1f-1c1a-450d-a4e6-2902bf821355"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "CISA has received multiple reports of a large-scale spear-phishing campaign targeting organizations in several sectors, including government and information technology (IT). The foreign threat actor, often posing as a trusted entity, is sending spear-phishing emails containing malicious remote desktop protocol (RDP) files to targeted organizations to connect to and access files stored on the target’s network. Once access has been gained, the threat actor may pursue additional activity, such as deploying malicious code to achieve persistent access to the target’s network. \n\nCISA, government, and industry partners are coordinating, responding, and assessing the impact of this campaign. CISA urges organizations to take proactive measures:\n\n* **Restrict Outbound RDP Connections:**  \n   * Forbid or significantly restrict outbound RDP connections to external or public networks. This measure is crucial for minimizing exposure to potential cyber threats.  \n   * Implement a Firewall along with secure policies and access control lists.\n* **Block RDP Files in Communication Platforms:**  \n   * Prohibit RDP files from being transmitted through email clients and webmail services. This step helps prevent the accidental execution of malicious RDP configurations.\n* **Prevent Execution of RDP Files:**  \n   * Implement controls to block the execution of RDP files by users. This precaution is vital in reducing the risk of exploitation.\n* **Enable Multi-Factor Authentication (MFA):**  \n   * Enable MFA wherever feasible to provide an essential layer of security for remote access.  \n   * Avoid SMS MFA whenever possible.\n* **Adopt Phishing-Resistant Authentication Methods:**  \n   * Deploy phishing-resistant authentication solutions, such as FIDO tokens. It is important to avoid SMS-based MFA, as it can be vulnerable to SIM-jacking attacks.\n* **Implement Conditional Access Policies:**  \n   * Establish Conditional Access Authentication Strength to mandate the use of phishing-resistant authentication methods. This ensures that only authorized users can access sensitive systems.\n* **Deploy Endpoint Detection and Response (EDR):**  \n   * Implement Endpoint Detection and Response (EDR) solutions to continuously monitor for and respond to suspicious activities within the network.\n* **Consider Additional Security Solutions:**  \n   * Evaluate, in conjunction with EDR, the deployment of anti-phishing and antivirus solutions to bolster their defenses against emerging threats.\n* **Conduct User Education:**  \n   * Have a user education program that highlights how to identify and report suspicious emails. Robust user education can help mitigate the threat of social engineering and phishing emails.  \n   * Recognize and Report Phishing: [Avoid phishing with these simple tips](https://www.cisa.gov/secure-our-world/recognize-and-report-phishing).\n* **Hunt For Activity Using Referenced Indicators and TTPs:**  \n   * Utilize all indicators that are released in relevant articles and reporting tosearch for possible malicious activity within your organization’s network.  \n   * Search for unexpected and/or unauthorized outbound RDP connections within the last year.\n\nCISA urges users and administrators to remain vigilant against spear-phishing attempts, hunt for any malicious activity, report positive findings to CISA, and review the following articles for more information:\n\n* Microsoft: [Midnight Blizzard conducts large-scale spear-phishing campaign using RDP files](https://www.microsoft.com/en-us/security/blog/2024/10/29/midnight-blizzard-conducts-large-scale-spear-phishing-campaign-using-rdp-files/)\n* AWS Security: [Amazon identified internet domains abused by APT29](https://aws.amazon.com/blogs/security/amazon-identified-internet-domains-abused-by-apt29/)\n* The Centre for Cybersecurity Belgium: [Warning: Government-themed Phishing with RDP Attachments](https://atwork.safeonweb.be/recent-news-tips-and-warning/warning-government-themed-phishing-rdp-attachments)\n* Computer Emergency Response Team of Ukraine: [RDP configuration files as a means of obtaining remote access to a computer or \"Rogue RDP\"](https://cert.gov.ua/article/6281076)",
+      "created_by_ref": "identity--20218d5e-5bc8-45e4-b252-976200eed3d4"
+    },
+    {
+      "type": "report",
+      "id": "report--b1f81b6f-4519-4796-ab41-c995ae7b09ae",
+      "spec_version": "2.1",
+      "created": "2024-03-17T10:00:02.665Z",
+      "modified": "2024-11-15T16:01:00.101Z",
+      "name": "Week in review: Cybersecurity job openings, hackers use 1-day flaws to drop custom Linux malware",
+      "report_types": [
+        "threat-report"
+      ],
+      "published": "2024-03-17T09:26:00.000Z",
+      "external_references": [
+        {
+          "url": "https://www.helpnetsecurity.com/2024/03/17/week-in-review-cybersecurity-job-openings-hackers-use-1-day-flaws-to-drop-custom-linux-malware/",
+          "source_name": "CERT-EU"
+        },
+        {
+          "url": "https://media.cert.europa.eu/cert/plainedition/en/cert_about.html",
+          "source_name": "CERT-EU RSS feed"
+        }
+      ],
+      "object_refs": [
+        "threat-actor--04147f1f-1c1a-450d-a4e6-2902bf821355"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "![Week in review](https://img2.helpnetsecurity.com/posts2023/cybersecurity_week_in_review1-650.jpg \"Week in review\")\n\nHere’s an overview of some of last week’s most interesting news, articles, interviews and videos:\n\n**[Transitioning to memory-safe languages: Challenges and considerations](https://www.helpnetsecurity.com/2024/03/11/omkhar-arasaratnam-openssf-memory-safe-programming-languages/)**  \nIn this Help Net Security interview, Omkhar Arasaratnam, General Manager at the Open Source Security Foundation (OpenSSF), discusses the evolution of memory-safe programming languages and their emergence in response to the limitations of languages like C and C++.\n\n**[LastPass’ CIO vision for driving business strategy, innovation](https://www.helpnetsecurity.com/2024/03/13/asad-siddiqui-lastpass-cios-strategic-role/)**  \nRecently, LastPass appointed Asad Siddiqui as its CIO. He brings over two decades of experience leading startups and large technology organizations. It was the perfect time for Help Net Security to find out what’s next for Siddiqui in his new role and how he plans to bridge the gap between business objectives and technological solutions.\n\n**[Cybersecurity jobs available right now: March 12, 2024](https://www.helpnetsecurity.com/2024/03/12/cybersecurity-jobs-available-right-now-march-12-2024/)**  \nWe’ve scoured the market to bring you a selection of roles that span various skill levels within the cybersecurity field. Check out this weekly selection of cybersecurity jobs available right now.\n\n**[CloudGrappler: Open-source tool detects activity in cloud environments](https://www.helpnetsecurity.com/2024/03/11/cloudgrappler-free-open-source-cloud-security-tool/)**  \nCloudGrappler is an open-source tool designed to assist security teams in identifying threat actors within their AWS and Azure environments.\n\n**[MobSF: Open-source security research platform for mobile apps](https://www.helpnetsecurity.com/2024/03/14/mobsf-open-source-mobile-security-framework/)**  \nThe Mobile Security Framework (MobSF) is an open-source research platform for mobile application security, encompassing Android, iOS, and Windows Mobile.\n\n**[Microsoft: Russian hackers accessed internal systems, code repositories](https://www.helpnetsecurity.com/2024/03/11/microsoft-russian-hackers-srouce-code/)**  \nMidnight Blizzard (aka APT29), a group of Russian hackers tied to the country’s Foreign Intelligence Service (SVR), has leveraged information stolen from Microsoft corporate email systems to burrow into the company’s source code repositories and internal systems.\n\n**[March 2024 Patch Tuesday: Microsoft fixes critical bugs in Windows Hyper-V](https://www.helpnetsecurity.com/2024/03/12/march-2024-patch-tuesday/)**  \nOn this March 2024 Patch Tuesday, Microsoft has released fixes for 59 CVE-numbered vulnerabilities, but – welcome news! – none of them are currently publicly known or actively exploited.\n\n**[BSAM: Open-source methodology for Bluetooth security assessment](https://www.helpnetsecurity.com/2024/03/13/bluetooth-security-assessment-methodology/)**  \nMany wireless headsets using Bluetooth technology have vulnerabilities that may allow malicious individuals to covertly listen in on private conversations, Tarlogic Security researchers have demonstrated last week at RootedCON in Madrid.\n\n**[The effects of law enforcement takedowns on the ransomware landscape](https://www.helpnetsecurity.com/2024/03/13/law-enforcement-action-ransomware/)**  \nWhile the results of law enforcement action against ransomware-as-a-service operators Alphv/BlackCat and LockBit are yet to be fully realized, the August 2023 disruption of the Qakbot botnet has had one notable effect: ransomware affiliates have switched to vulnerability exploitation as the primary method of delivering the malware.\n\n**[PoC for critical Arcserve UDP vulnerabilities published (CVE-2024-0799, CVE-2024-0800)](https://www.helpnetsecurity.com/2024/03/14/cve-2024-0799-cve-2024-0800/)**  \nArcserve has fixed critical security vulnerabilities (CVE-2024-0799, CVE-2024-0800) in its Unified Data Protection (UDP) solution that can be chained to upload malicious files to the underlying Windows system.\n\n**[Critical FortiClient EMS vulnerability fixed, (fake?) PoC for sale (CVE-2023-48788)](https://www.helpnetsecurity.com/2024/03/14/cve-2023-48788-poc/)**  \nA recently fixed SQL injection vulnerability (CVE-2023-48788) in Fortinet’s FortiClient Endpoint Management Server (EMS) solution has apparently piqued the interest of many: Horizon3’s Attack Team means to publish technical details and a proof-of-concept exploit for it next week, and someone is attempting to sell a PoC for less than $300 via GitHub.\n\n**[Tax-related scams escalate as filing deadline approaches](https://www.helpnetsecurity.com/2024/03/12/tax-scams/)**  \nAs the April 15, 2024 tax filing deadline approaches in the US, some old and some new tax-related scams targeting both taxpayers and tax professionals.\n\n**[Hackers leverage 1-day vulnerabilities to deliver custom Linux malware](https://www.helpnetsecurity.com/2024/03/12/custom-linux-malware/)**  \nA financially motivated threat actor is using known vulnerabilities to target public-facing services and deliver custom malware to unpatched Windows and Linux systems.\n\n**[How advances in AI are impacting business cybersecurity](https://www.helpnetsecurity.com/2024/03/12/interactive-ai-business-security/)**  \nWhile ChatGPT and Bard have proven to be valuable tools for developers, marketers, and consumers, they also carry the risk of unintentionally exposing sensitive and confidential data.\n\n**[Email security trends in the energy and infrastructure sector](https://www.helpnetsecurity.com/2024/03/11/energy-and-infrastructure-organizations-attacks-video/)**  \nIn this Help Net Security video, Mike Britton, CISO at Abnormal Security, discusses how energy and infrastructure organizations face an increased risk of business email compromise and vendor email compromise attacks.\n\n**[10 free cybersecurity guides you might have missed](https://www.helpnetsecurity.com/2024/03/11/free-cybersecurity-guides/)**  \nThis collection of free cybersecurity guides covers a broad range of topics, from resources for developing cybersecurity programs to specific guides for various sectors and organizations.\n\n**[How organizations can keep up with shifting data privacy regulations](https://www.helpnetsecurity.com/2024/03/12/shifting-data-privacy-regulations-video/)**  \nIn this Help Net Security video, Romain Deslorieux, Global Director, Strategic Partnerships at Thales, discusses what companies should be planning based on current regulations and what steps they can take to prepare for the future.\n\n**[Image-based phishing tactics evolve](https://www.helpnetsecurity.com/2024/03/12/image-based-phishing-attacks/)**  \nWhile 70% of organizations feel their current security stacks are effective against image-based and QR code phishing attacks, 76% were still compromised in the last 12 months, according to IRONSCALES and Osterman Research.\n\n**[The most concerning risks for 2024 and beyond](https://www.helpnetsecurity.com/2024/03/13/2024-most-concerning-risks-video/)**  \nIn this Help Net Security video, Melissa Bischoping, Director, Endpoint Security Research at Tanium, discusses the most concerning risks for 2024 and beyond, from both an internal and external perspective.\n\n**[Keyloggers, spyware, and stealers dominate SMB malware detections](https://www.helpnetsecurity.com/2024/03/13/smbs-ransomware-cyberthreat/)**  \nIn 2023, 50% of malware detections for SMBs were keyloggers, spyware and stealers, malware that attackers use to steal data and credentials, according to Sophos.\n\n**[How teams can improve incident recovery time to minimize damages](https://www.helpnetsecurity.com/2024/03/14/improve-incident-recovery-time-video/)**  \nIn this Help Net Security video, Nick Scozzaro, CEO at ShadowHQ, discusses why incident response and disaster recovery processes are flawed and offers advice on how teams can improve incident recovery time to minimize damages.\n\n**[AI and the future of corporate security](https://www.helpnetsecurity.com/2024/03/15/ai-technology-guardrails-video/)**  \nIn this Help Net Security video, Tracy Reinhold, CSO at Everbridge, discusses why AI technology must be embraced while also exploring some guardrails that must be in place to protect organizations against threats using AI to penetrate facilities.\n\n**[Product showcase: How to track SaaS security best practices with Nudge Security](https://www.helpnetsecurity.com/2024/03/13/product-showcase-nudge-security-track-saas-security-best-practices/)**  \nNudge Security discovers all SaaS apps ever introduced by anyone in your organization and offers automation and orchestration capabilities to make it easy to implement SaaS security best practices. \n\n**[New infosec products of the week: March 15, 2024](https://www.helpnetsecurity.com/2024/03/15/new-infosec-products-of-the-week-march-15-2024/)**  \nHere’s a look at the most interesting products from the past week, featuring releases from AuditBoard, Cynerio, DataDome, Regula, and Tenable.",
+      "created_by_ref": "identity--1f5c6f58-8d93-48b5-99cd-2cb5c961ecd3"
+    },
+    {
+      "type": "report",
+      "id": "report--8bfa1712-0a45-4021-9ade-ee34ed60efc0",
+      "spec_version": "2.1",
+      "created": "2024-10-30T10:01:17.792Z",
+      "modified": "2024-11-15T14:42:23.654Z",
+      "name": "APT29 Spearphishing Campaign Targets Thousands with RDP Files",
+      "report_types": [
+        "threat-report"
+      ],
+      "published": "2024-10-30T10:00:00.000Z",
+      "external_references": [
+        {
+          "url": "https://www.infosecurity-magazine.com/news/apt29-spearphishing-thousands-rdp/",
+          "source_name": "InfoSecurity-magazine"
+        },
+        {
+          "url": "https://www.infosecurity-magazine.com/",
+          "source_name": "InfoSecurity-magazine RSS feed"
+        }
+      ],
+      "object_refs": [
+        "threat-actor--04147f1f-1c1a-450d-a4e6-2902bf821355"
+      ],
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "description": "Microsoft has warned of an ongoing infostealing campaign from notorious Russian APT group Midnight Blizzard (aka APT29, CozyBear) in which thousands of targets were sent spear phishing emails.\n\nOver 100 organizations in government, academia, defense, non-governmental organizations (NGOs) and other sectors have been impacted so far by this state-backed intelligence-gathering exercise, Redmond claimed in a blog post yesterday.\n\nUnusually, the emails themselves – which impersonate Microsoft employees and other cloud providers – contain a signed RDP configuration file which connects to a threat actor server.\n\n“In this campaign, the malicious .RDP attachment contained several sensitive settings that would lead to significant information exposure. Once the target system was compromised, it connected to the actor-controlled server and bidirectionally mapped the targeted user’s local device’s resources to the server,” Microsoft explained.\n\n“Resources sent to the server may include, but are not limited to, all logical hard disks, clipboard contents, printers, connected peripheral devices, audio, and authentication features and facilities of the Windows operating system, including smart cards. This access could enable the threat actor to install malware on the target’s local drive(s) and mapped network share(s), particularly in AutoStart folders, or install additional tools such as remote access trojans (RATs) to maintain access when the RDP session is closed.”\n\n[_Read more on APT29: Russia’s APT29 Targets Embassies With Ngrok and WinRAR Exploit_](https://www.infosecurity-magazine.com/news/russias-apt29-embassies-ngrok/)\n\nBy establishing an RDP connection to the actor-controlled server, victims may also expose their own credentials, the report warned.\n\nAlthough targets have been discovered in dozens of countries, those in the UK, Europe, Australia and Japan are particularly at risk, Microsoft said. There is also an overlap of tactics seen and reported by Amazon and the Ukrainian CERT under the UAC-0215 designation.\n\nMicrosoft outlined a [lengthy list](https://www.microsoft.com/en-us/security/blog/2024/10/29/midnight-blizzard-conducts-large-scale-spear-phishing-campaign-using-rdp-files/) of mitigations focused on strengthening:\n\n* Operating environment configurations\n* Endpoint security configurations\n* Antivirus configurations\n* Microsoft Office 365 configurations\n* Email security configurations\n* User education",
+      "created_by_ref": "identity--d2d0d455-00aa-4be7-8828-21b29f1678f9"
+    }
+  ]
+}

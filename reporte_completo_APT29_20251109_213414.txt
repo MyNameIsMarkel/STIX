@@ -1,0 +1,146 @@
+
+================================================================================
+INFORME COMPLETO DE INTELIGENCIA SOBRE AMENAZAS - APT29
+================================================================================
+Fecha de generación: 2025-11-09 21:34:14
+Archivo analizado: threat-actor--04147f1f-1c1a-450d-a4e6-2902bf821355.CLEAR.STIX.json
+Total de objetos STIX analizados: 103
+
+================================================================================
+ACTOR DE AMENAZA: APT29 (MIDNIGHT BLIZZARD)
+================================================================================
+• Aliases identificados: 20
+• Motivaciones: 5
+• Sectores objetivo: 6
+
+ALIASES:
+  • APT29
+  • APT29 https://securityaffairs.com/160975/apt/russia-apt29-german-political-parties-wineloader.html SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html
+  • An elaborate attack on numerous European diplomatic and government entities
+  • Cloaked Ursa
+  • Cozy Bear
+  • CozyBear
+  • EnvyScout
+  • Midnight Blizzard
+  • Midnight Blizzard/Nobelium
+  • Nobelium
+  • SVR group
+  • SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html BlueBravo https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html
+  • SVR group https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html Cozy Bear https://securityaffairs.co/wordpress/53318/intelligence/cozy-bear-post-election.html Nobelium https://securityaffairs.co/wordpress/134838/apt/nobelium-magicweb-tool.html Midnight Blizzard https://securityaffairs.com/148920/apt/bluebravo-graphicalproton-backdoor.html and The Dukes https://securityaffairs.co/wordpress/40214/cyber-crime/the-dukes-apt.html
+  • UAC-0029
+  • and Midnight Blizzard
+  • and The Dukes
+  • and internet service providers
+  • international organizations
+  • perpetrated by the Russia-affiliated APT29 group (AKA Cozy Bear
+  • “The Dukes”
+
+MOTIVACIONES:
+  • Cyber Espionage
+  • Diplomatic Intelligence
+  • Government Targeting
+  • Health Sector Intelligence
+  • Political Intelligence
+
+SECTORES OBJETIVO:
+  • Academia
+  • Defense
+  • Diplomatic Missions
+  • Government
+  • NGOs
+  • Technology
+
+================================================================================
+TTPs (TÁCTICAS, TÉCNICAS Y PROCEDIMIENTOS)
+================================================================================
+Total de TTPs identificados: 8
+
+TÉCNICAS:
+  • Backdoor Installation
+  • Credential Theft
+  • Lateral Movement
+  • Password Spray Attack
+  • Persistence
+  • RDP Exploitation
+  • Spear Phishing
+  • Supply Chain Attack
+
+================================================================================
+MALWARE Y HERRAMIENTAS
+================================================================================
+Total de familias de malware: 5
+
+MALWARE:
+  • EnvyScout
+  • POSHSPY
+  • SUNBURST
+  • WellMess
+  • rootsaw
+
+VULNERABILIDADES EXPLOTADAS:
+  • CVE-2023-38831
+
+================================================================================
+CAMPAÑAS Y OPERACIONES
+================================================================================
+Total de campañas documentadas: 5
+
+CAMPAÑAS:
+  • APT29 Spearphishing Campaign Targets Thousands with RDP Files
+  • CrowdStrike Spends to Boost Identity Threat Detection
+  • Foreign Threat Actor Conducting Large-Scale Spear-Phishing Campaign with RDP Attachments | CISA
+  • Russia-linked Midnight Blizzard APT targeted 100+ organizations with a spear-phishing campaign using RDP files
+  • Week in review: Cybersecurity job openings, hackers use 1-day flaws to drop custom Linux malware
+
+================================================================================
+IOCs (INDICADORES DE COMPROMISO)
+================================================================================
+• URLs: 117
+• Dominios: 80
+• IPs: 0
+• Hashes: 0
+• Emails: 0
+
+URLs RELACIONADAS (primeras 10):
+  • https://attack.mitre.org/software/S0634/
+  • https://atwork.safeonweb.be/recent-news-tips-and-warning/warning-government-themed-phishing-rdp-attachments)
+  • https://i0.wp.com/securityaffairs.com/wp-content/uploads/2024/10/image-32.png?resize=572%2C532&ssl=1)
+  • https://securityaffairs.co/wordpress/116891/cyber-warfare-2/russia-svr-actively-targets-5-flaws.html),
+  • https://securityaffairs.com/112416/hacking/microsoft-breached-solarwinds-hack.html)supply
+  • https://www.helpnetsecurity.com/2024/03/12/custom-linux-malware/)**
+  • https://www.helpnetsecurity.com/2024/03/13/asad-siddiqui-lastpass-cios-strategic-role/)**
+  • https://www.helpnetsecurity.com/2024/03/14/mobsf-open-source-mobile-security-framework/)**
+  • https://www.infosecurity-magazine.com/news/russian-hackers-spyware-exploits/
+  • https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development.pdf
+
+DOMINIOS SOSPECHOSOS (primeros 10):
+  • 2023-03-10-IOCs-for-CloakedUrsa-APT29-Activity.txt
+  • Island.CrowdStrike
+  • aws.amazon.com
+  • dark-pink-apt-south-asia.html
+  • go.recordedfuture.com
+  • securityaffairs.com
+  • www.infosecurity-magazine.com
+  • www.linkedin.com
+  • www.rnbo.gov.ua
+  • www.trendmicro.com
+
+IPs IDENTIFICADAS:
+
+
+HASHES MALICIOSOS:
+
+
+================================================================================
+RESUMEN ESTADÍSTICO
+================================================================================
+• Total objetos STIX analizados: 103
+• Aliases del actor: 20
+• TTPs identificados: 8
+• Familias de malware: 5
+• Vulnerabilidades: 1
+• Campañas documentadas: 5
+• IOCs extraídos: 197
+• Motivaciones: 5
+• Sectores objetivo: 6
+================================================================================
